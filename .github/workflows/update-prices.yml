@@ -1,0 +1,27 @@
+name: Update SA electricity prices
+
+on:
+  workflow_dispatch:          # lets you run it manually
+  schedule:
+    - cron: '0 18 * * 0'      # weekly, Sunday 18:00 UTC (~Mon morning Adelaide)
+
+permissions:
+  contents: write             # allow it to commit sa_plans.json back
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch all SA plans
+        run: python fetch_sa_plans.py
+      - name: Commit updated prices
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add sa_plans.json sa_plans.csv
+          git diff --staged --quiet || git commit -m "Update SA plan prices ($(date -u +%Y-%m-%d))"
+          git push
