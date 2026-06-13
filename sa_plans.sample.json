@@ -1,0 +1,1006 @@
+{
+  "generated_at": "2026-06-13T02:21:08.788460+00:00",
+  "source": "ILLUSTRATIVE SAMPLE DATA - not real prices. Run fetch_sa_plans.py for live AER data.",
+  "region": "South Australia (SA Power Networks)",
+  "fuel": "ELECTRICITY",
+  "gst_note": "Unit prices and supply charges are GST-inclusive, in cents.",
+  "is_sample": true,
+  "plan_count": 25,
+  "plans": [
+    {
+      "plan_id": "SAMPLE1001",
+      "brand": "agl",
+      "brand_name": "AGL",
+      "display_name": "Everyday",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 99.84,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": true,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1001",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 42.77,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 42.77
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1002",
+      "brand": "agl",
+      "brand_name": "AGL",
+      "display_name": "Saver",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 90.72,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 8.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 8.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1002",
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 47.16
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.76
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 22.37
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1003",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Total PlanPro",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 92.33,
+      "controlled_load_cents_per_kwh": 22.57,
+      "feed_in_cents_per_kwh": 3.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1003",
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 42.82
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 30.6
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 23.65
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1004",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "SimplePro",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 101.97,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 10.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 10.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": true,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1004",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.3,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.3
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1005",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Value",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 98.3,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 10.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 10.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": true,
+      "contract_term_months": 12,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1005",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 43.38,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 43.38
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1006",
+      "brand": "alinta",
+      "brand_name": "Alinta Energy",
+      "display_name": "Total PlanPro",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 90.33,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 12.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 12.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 24,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1006",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 38.76,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 38.76
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1007",
+      "brand": "red",
+      "brand_name": "Red Energy",
+      "display_name": "SaverPro",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 102.22,
+      "controlled_load_cents_per_kwh": 21.09,
+      "feed_in_cents_per_kwh": 3.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1007",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.91,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.91
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1008",
+      "brand": "simply",
+      "brand_name": "Simply Energy",
+      "display_name": "StandardPlus",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 94.55,
+      "controlled_load_cents_per_kwh": 24.97,
+      "feed_in_cents_per_kwh": 5.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": true,
+      "contract_term_months": 12,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1008",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.06,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.06
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1009",
+      "brand": "amber",
+      "brand_name": "Amber",
+      "display_name": "FlexiPro",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 113.92,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 5.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1009",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 45.24,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 45.24
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1010",
+      "brand": "lumo",
+      "brand_name": "Lumo Energy",
+      "display_name": "Value",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 105.67,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 5.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 24,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1010",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 39.38,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 39.38
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1011",
+      "brand": "momentum",
+      "brand_name": "Momentum",
+      "display_name": "Flexi",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 114.13,
+      "controlled_load_cents_per_kwh": 21.85,
+      "feed_in_cents_per_kwh": 12.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 12.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": true,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1011",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.3,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.3
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1012",
+      "brand": "globird",
+      "brand_name": "GloBird",
+      "display_name": "SaverPlus",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 106.02,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 3.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1012",
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 49.98
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 31.49
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 24.02
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1013",
+      "brand": "powershop",
+      "brand_name": "Powershop",
+      "display_name": "Home",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 102.22,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 3.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1013",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 46.14,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 46.14
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1014",
+      "brand": "powershop",
+      "brand_name": "Powershop",
+      "display_name": "SaverPlus",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 108.76,
+      "controlled_load_cents_per_kwh": 22.35,
+      "feed_in_cents_per_kwh": 12.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 12.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": true,
+      "contract_term_months": 24,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1014",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 45.07,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 45.07
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1015",
+      "brand": "nectr",
+      "brand_name": "Nectr",
+      "display_name": "StandardPro",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 95.83,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 6.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 6.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 12,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1015",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 44.75,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 44.75
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1016",
+      "brand": "tango",
+      "brand_name": "Tango",
+      "display_name": "Solar Boost",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 112.55,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 4.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 4.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 12,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1016",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.13,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.13
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1017",
+      "brand": "ovo",
+      "brand_name": "OVO Energy",
+      "display_name": "Simple",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 116.11,
+      "controlled_load_cents_per_kwh": 21.76,
+      "feed_in_cents_per_kwh": 6.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 6.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 12,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1017",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 47.9,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 47.9
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1018",
+      "brand": "ovo",
+      "brand_name": "OVO Energy",
+      "display_name": "Everyday",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 102.38,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 6.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 6.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 12,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1018",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 42.77,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 42.77
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1019",
+      "brand": "reamped",
+      "brand_name": "ReAmped",
+      "display_name": "Home",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 116.38,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 8.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 8.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": true,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1019",
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 49.68
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 34.65
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 27.25
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1020",
+      "brand": "reamped",
+      "brand_name": "ReAmped",
+      "display_name": "SimplePlus",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 105.88,
+      "controlled_load_cents_per_kwh": 24.39,
+      "feed_in_cents_per_kwh": 10.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 10.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1020",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 48.27,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 48.27
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1021",
+      "brand": "energy",
+      "brand_name": "Energy Locals",
+      "display_name": "SaverPro",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 93.84,
+      "controlled_load_cents_per_kwh": 19.92,
+      "feed_in_cents_per_kwh": 4.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 4.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 12,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1021",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 47.18,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 47.18
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1022",
+      "brand": "energy",
+      "brand_name": "Energy Locals",
+      "display_name": "Total Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 110.2,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 10.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 10.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1022",
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 52.09
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 36.09
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.21
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1023",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 102.2,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 3.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 12,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1023",
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 43.38
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 35.6
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 23.99
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1024",
+      "brand": "sumo",
+      "brand_name": "Sumo",
+      "display_name": "EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 90.93,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 10.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 10.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": false,
+      "contract_term_months": 24,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1024",
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 44.59
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 32.77
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 26.07
+        }
+      ]
+    },
+    {
+      "plan_id": "SAMPLE1025",
+      "brand": "sumo",
+      "brand_name": "Sumo",
+      "display_name": "EV PlanPro",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": 103.23,
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 4.0,
+      "feed_in_detail": [
+        {
+          "scheme": "Market",
+          "display_name": "Solar feed-in",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 4.0
+        }
+      ],
+      "discounts": [],
+      "fees": [],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=SAMPLE1025",
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.48,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.48
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SA Power Plans — every retail electricity plan, ranked</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c1014; --panel:#141a21; --panel2:#1a222c; --line:#28323f;
+    --txt:#e7eef6; --muted:#8a98a8; --faint:#5d6b7a;
+    --solar:#f5b301; --solar-soft:#ffcb47; --grid:#2dd4bf; --batt:#a78bfa;
+    --cheap:#5ad885; --dear:#f87171; --warn:#fbbf24;
+    --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+    --disp:'Space Grotesk',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --body:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--txt);font-family:var(--body);
+    -webkit-font-smoothing:antialiased;font-size:15px;line-height:1.45}
+  a{color:var(--grid);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1180px;margin:0 auto;padding:22px 18px 80px}
+
+  /* header */
+  header.top{display:flex;flex-wrap:wrap;align-items:flex-end;gap:14px 22px;
+    border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px}
+  .brandmark{font-family:var(--disp);font-weight:700;font-size:1.85rem;letter-spacing:-.02em;line-height:1}
+  .brandmark .bolt{color:var(--solar)}
+  .sub{color:var(--muted);font-size:.86rem;max-width:42ch;margin-top:6px}
+  .freshness{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+  .pill{font-family:var(--mono);font-size:.72rem;padding:5px 10px;border-radius:999px;
+    border:1px solid var(--line);background:var(--panel);color:var(--muted);white-space:nowrap}
+  .pill.live{border-color:#1f6f57;color:var(--grid)}
+  .pill.sample{border-color:#7a5a12;color:var(--solar-soft)}
+  .loadbtn{font-family:var(--mono);font-size:.72rem;color:var(--faint);cursor:pointer;
+    border:1px dashed var(--line);padding:4px 8px;border-radius:6px;background:none}
+  .loadbtn:hover{color:var(--txt);border-color:var(--faint)}
+
+  /* control grid */
+  .controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;
+    background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 16px 18px}
+  .ctl label{display:block;font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;
+    color:var(--muted);margin-bottom:7px}
+  .ctl .val{font-family:var(--mono);font-weight:600;color:var(--solar-soft);font-size:.78rem}
+  input[type=range]{width:100%;accent-color:var(--solar);height:4px}
+  input[type=number],select{width:100%;background:var(--panel2);border:1px solid var(--line);
+    color:var(--txt);border-radius:8px;padding:7px 9px;font-family:var(--mono);font-size:.85rem}
+  input[type=number]:focus,select:focus{outline:2px solid var(--grid);outline-offset:1px}
+
+  /* scenario toggle */
+  .scenrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:20px 0 8px}
+  .scenrow .lbl{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+  .seg button{font-family:var(--disp);font-weight:600;font-size:.82rem;background:none;border:none;
+    color:var(--muted);padding:8px 15px;cursor:pointer;display:flex;align-items:center;gap:7px}
+  .seg button .dot{width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.55}
+  .seg button[data-s=none]{--c:var(--faint)} .seg button[data-s=solar]{--c:var(--solar)}
+  .seg button[data-s=battery]{--c:var(--batt)}
+  .seg button.active{color:var(--txt);background:var(--panel2)}
+  .seg button.active .dot{background:var(--c);opacity:1;box-shadow:0 0 8px var(--c)}
+
+  /* hero */
+  .hero{background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);
+    border-radius:14px;padding:18px 20px;margin:14px 0 26px;display:grid;
+    grid-template-columns:1.05fr 1.4fr;gap:24px}
+  .hero h2{font-family:var(--disp);font-size:.78rem;text-transform:uppercase;letter-spacing:.09em;
+    color:var(--muted);margin:0 0 4px;font-weight:600}
+  .hero .planname{font-family:var(--disp);font-size:1.35rem;font-weight:600;letter-spacing:-.01em;line-height:1.15}
+  .hero .planmeta{color:var(--muted);font-size:.8rem;margin-top:3px}
+  .bignum{font-family:var(--mono);font-size:2.5rem;font-weight:600;letter-spacing:-.02em;margin-top:14px;line-height:1}
+  .bignum small{font-size:.95rem;color:var(--muted);font-weight:400;margin-left:6px}
+  .saveline{margin-top:10px;font-size:.85rem}
+  .saveline b{color:var(--cheap);font-family:var(--mono)}
+  .bars{display:flex;flex-direction:column;justify-content:center;gap:14px}
+  .bar{display:grid;grid-template-columns:74px 1fr auto;align-items:center;gap:12px}
+  .bar .blab{font-size:.74rem;color:var(--muted);text-align:right}
+  .bar .track{height:26px;background:var(--panel);border:1px solid var(--line);border-radius:7px;overflow:hidden}
+  .bar .fill{height:100%;border-radius:6px 0 0 6px;transition:width .5s cubic-bezier(.2,.7,.2,1)}
+  .bar .amt{font-family:var(--mono);font-size:.84rem;font-weight:600;min-width:74px;text-align:right}
+  .fill.none{background:linear-gradient(90deg,#3a4654,#4a5868)}
+  .fill.solar{background:linear-gradient(90deg,#b88503,var(--solar))}
+  .fill.battery{background:linear-gradient(90deg,#7c5cf0,var(--batt))}
+
+  /* filter bar */
+  .filterbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+  .filterbar input[type=search]{flex:1;min-width:180px;background:var(--panel);border:1px solid var(--line);
+    color:var(--txt);border-radius:9px;padding:9px 12px;font-size:.88rem}
+  .chip{font-family:var(--mono);font-size:.74rem;color:var(--muted);border:1px solid var(--line);
+    background:var(--panel);border-radius:8px;padding:7px 11px;cursor:pointer;user-select:none}
+  .chip.on{color:var(--bg);background:var(--solar);border-color:var(--solar);font-weight:600}
+  .count{font-family:var(--mono);font-size:.74rem;color:var(--faint);margin-left:auto}
+
+  /* table */
+  .tablewrap{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--panel)}
+  table{width:100%;border-collapse:collapse;font-size:.86rem}
+  thead th{font-family:var(--disp);font-weight:600;font-size:.7rem;text-transform:uppercase;
+    letter-spacing:.06em;color:var(--muted);text-align:right;padding:12px 12px;cursor:pointer;
+    background:var(--panel2);position:sticky;top:0;white-space:nowrap}
+  thead th:first-child,thead th.l{text-align:left}
+  thead th.sorted{color:var(--solar-soft)}
+  thead th .ar{font-size:.6rem;margin-left:3px;opacity:.7}
+  tbody td{padding:11px 12px;text-align:right;border-top:1px solid var(--line);font-family:var(--mono);white-space:nowrap}
+  tbody td.l{text-align:left;font-family:var(--body)}
+  tbody tr{cursor:pointer}
+  tbody tr:hover{background:var(--panel2)}
+  tbody tr.top td{background:rgba(90,216,133,.04)}
+  .rank{color:var(--faint);font-family:var(--mono);font-size:.8rem}
+  .rank.one{color:var(--solar);font-weight:600}
+  .pname{font-family:var(--body);font-weight:500}
+  .pbrand{color:var(--muted);font-size:.78rem}
+  .net{font-weight:600;font-size:.95rem}
+  .net.cheap{color:var(--cheap)} .net.dear{color:var(--dear)}
+  .tag{font-family:var(--mono);font-size:.66rem;padding:2px 6px;border-radius:5px;border:1px solid var(--line);color:var(--muted)}
+  .tag.tou{color:var(--grid);border-color:#1f5f54}
+  .tag.standing{color:var(--warn);border-color:#6b5410}
+  .save{color:var(--cheap)} .save.neg{color:var(--dear)}
+  .nodata{color:var(--faint);font-style:italic}
+  .warnico{color:var(--warn);cursor:help}
+
+  /* drawer */
+  .drawer{position:fixed;top:0;right:0;height:100%;width:min(440px,92vw);background:var(--panel);
+    border-left:1px solid var(--line);transform:translateX(100%);transition:transform .28s ease;
+    z-index:40;overflow-y:auto;padding:22px 22px 60px;box-shadow:-20px 0 50px rgba(0,0,0,.4)}
+  .drawer.open{transform:translateX(0)}
+  .drawer .x{position:absolute;top:16px;right:18px;font-size:1.4rem;color:var(--muted);cursor:pointer;line-height:1}
+  .drawer h3{font-family:var(--disp);font-size:1.2rem;margin:4px 40px 2px 0;letter-spacing:-.01em}
+  .drawer .dbrand{color:var(--muted);font-size:.85rem;margin-bottom:16px}
+  .kv{display:flex;justify-content:space-between;padding:9px 0;border-top:1px solid var(--line);font-size:.86rem}
+  .kv span:first-child{color:var(--muted)}
+  .kv span:last-child{font-family:var(--mono)}
+  .kv.big span:last-child{font-size:1.05rem;font-weight:600;color:var(--solar-soft)}
+  .sech{font-family:var(--disp);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;
+    color:var(--faint);margin:20px 0 4px}
+  .note{font-size:.78rem;color:var(--muted);margin-top:5px}
+
+  .backdrop{position:fixed;inset:0;background:rgba(0,0,0,.5);opacity:0;pointer-events:none;
+    transition:opacity .28s;z-index:35}
+  .backdrop.show{opacity:1;pointer-events:auto}
+
+  footer{margin-top:30px;color:var(--faint);font-size:.76rem;line-height:1.6;border-top:1px solid var(--line);padding-top:18px}
+  footer b{color:var(--muted)}
+
+  @media(max-width:760px){
+    .hero{grid-template-columns:1fr;gap:18px}
+    .freshness{margin-left:0;align-items:flex-start;width:100%;flex-direction:row;flex-wrap:wrap}
+    thead th.hidem,tbody td.hidem{display:none}
+    .bignum{font-size:2rem}
+  }
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <div class="brandmark">SA Power Plans <span class="bolt">⚡</span></div>
+      <div class="sub">Every residential electricity plan available on SA Power Networks, ranked by what it would actually cost <i>your</i> home — modelled live against your solar and battery setup.</div>
+    </div>
+    <div class="freshness">
+      <span class="pill" id="srcPill">loading…</span>
+      <span class="pill" id="datePill"></span>
+      <label class="loadbtn">load JSON…<input type="file" id="fileIn" accept="application/json" hidden></label>
+    </div>
+  </header>
+
+  <!-- CONTROLS -->
+  <div class="controls" id="controls">
+    <div class="ctl">
+      <label>Annual usage <span class="val" id="kwhVal"></span></label>
+      <input type="number" id="kwh" min="1000" max="25000" step="100" value="6000">
+    </div>
+    <div class="ctl">
+      <label>Solar system <span class="val" id="solarVal"></span></label>
+      <input type="range" id="solar" min="0" max="20" step="0.5" value="6.6">
+    </div>
+    <div class="ctl">
+      <label>Battery (usable) <span class="val" id="battVal"></span></label>
+      <input type="range" id="batt" min="0" max="30" step="0.5" value="10">
+    </div>
+    <div class="ctl">
+      <label>Solar self-use <span class="val" id="scVal"></span></label>
+      <input type="range" id="sc" min="10" max="80" step="5" value="35">
+    </div>
+    <div class="ctl">
+      <label>Daytime load <span class="val" id="dayVal"></span></label>
+      <input type="range" id="day" min="15" max="70" step="5" value="35">
+    </div>
+    <div class="ctl">
+      <label>Adelaide yield <span class="val" id="yieldVal"></span></label>
+      <input type="range" id="yield" min="1200" max="1700" step="20" value="1480">
+    </div>
+  </div>
+
+  <div class="scenrow">
+    <span class="lbl">Scenario</span>
+    <div class="seg" id="seg">
+      <button data-s="none"><span class="dot"></span>No solar</button>
+      <button data-s="solar" class="active"><span class="dot"></span>Solar only</button>
+      <button data-s="battery"><span class="dot"></span>Solar + battery</button>
+    </div>
+    <span class="lbl" style="margin-left:auto" id="touHint"></span>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div>
+      <h2>Cheapest plan for your setup</h2>
+      <div class="planname" id="heroName">—</div>
+      <div class="planmeta" id="heroMeta"></div>
+      <div class="bignum" id="heroNum">—<small>/yr est.</small></div>
+      <div class="saveline" id="heroSave"></div>
+    </div>
+    <div class="bars" id="heroBars"></div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filterbar">
+    <input type="search" id="search" placeholder="Search plan or retailer…">
+    <span class="chip" data-f="single">Single-rate only</span>
+    <span class="chip" data-f="market">Market offers only</span>
+    <span class="chip" data-f="nocond">Hide pay-on-time</span>
+    <span class="count" id="count"></span>
+  </div>
+
+  <!-- TABLE -->
+  <div class="tablewrap">
+    <table id="tbl">
+      <thead><tr>
+        <th class="l" data-k="rank">#</th>
+        <th class="l" data-k="name">Plan</th>
+        <th data-k="type" class="hidem">Type</th>
+        <th data-k="supply" class="hidem">Supply<br>c/day</th>
+        <th data-k="usage" class="hidem">Usage<br>c/kWh</th>
+        <th data-k="fit">Feed-in<br>c/kWh</th>
+        <th data-k="save" class="hidem">Solar<br>saving</th>
+        <th data-k="net" class="sorted">Annual<br>est.</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <footer>
+    <b>How the estimate works.</b> Annual cost = supply charge (c/day × 365) + grid-import energy − solar feed-in credit, computed per plan from the AER's published rates. Solar generation = system size × Adelaide yield. Battery raises how much of your own solar you use instead of exporting, bounded by usable capacity, daytime export surplus and evening load. Time-of-use plans split your import across peak/shoulder/off-peak using a typical household profile.<br><br>
+    <b>Assumptions you can tune above</b> change every number live. These are estimates for comparison, GST-inclusive — not a quote or financial advice. Confirm any plan on its official document (linked in each plan's detail) before switching, since discounts, demand charges, controlled-load and eligibility conditions can shift the real figure. Data source: AER Consumer Data Right Energy PRD — the same plans shown on energymadeeasy.gov.au.
+  </footer>
+</div>
+
+<div class="backdrop" id="backdrop"></div>
+<aside class="drawer" id="drawer">
+  <span class="x" id="drawerX">×</span>
+  <div id="drawerBody"></div>
+</aside>
+
+<script>
+"use strict";
+const $=s=>document.querySelector(s), fmt=n=>n==null?'—':'$'+Math.round(n).toLocaleString('en-AU');
+const c1=n=>n==null?'—':n.toFixed(1);
+
+let DATA=null, SCEN='solar', SORT={k:'net',dir:1}, FILT={single:false,market:false,nocond:false,q:''}, ROWS=[];
+
+/* ---------- data loading ---------- */
+async function tryFetch(url){ try{const r=await fetch(url,{cache:'no-store'}); if(r.ok) return await r.json();}catch(e){} return null; }
+async function boot(){
+  DATA = await tryFetch('./sa_plans.json') || await tryFetch('./sa_plans.sample.json');
+  if(!DATA){
+    $('#srcPill').textContent='no data file found';
+    $('#srcPill').className='pill sample';
+    $('#rows').innerHTML='<tr><td colspan="8" style="padding:30px;text-align:center;color:var(--muted)">Run <span style="font-family:var(--mono)">python3 fetch_sa_plans.py</span> to generate <b>sa_plans.json</b>, then reload — or use “load JSON…”.</td></tr>';
+    return;
+  }
+  applyData();
+}
+function applyData(){
+  const sample = DATA.is_sample || /SAMPLE/i.test(DATA.source||'');
+  $('#srcPill').textContent = sample ? 'ILLUSTRATIVE SAMPLE — not real prices' : 'Live AER data';
+  $('#srcPill').className = 'pill '+(sample?'sample':'live');
+  const d = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  $('#datePill').textContent = (DATA.plan_count||DATA.plans.length)+' plans · '+(d?d.toLocaleDateString('en-AU'):'');
+  recompute();
+}
+$('#fileIn').addEventListener('change',e=>{
+  const f=e.target.files[0]; if(!f)return; const rd=new FileReader();
+  rd.onload=()=>{try{DATA=JSON.parse(rd.result);applyData();}catch(err){alert('Could not parse JSON: '+err.message);}};
+  rd.readAsText(f);
+});
+
+/* ---------- the model ---------- */
+function inputs(){
+  return {
+    kwh:+$('#kwh').value, solarKw:+$('#solar').value, battKwh:+$('#batt').value,
+    sc:+$('#sc').value/100, day:+$('#day').value/100, yld:+$('#yield').value,
+    rte:0.90, touSplit:{peak:0.32,shoulder:0.30,offpeak:0.38}
+  };
+}
+function touRate(plan,type){ // find a usage rate by TOU type with sensible fallbacks
+  const r=plan.usage_rates||[]; const by=t=>r.find(x=>(x.type||'').includes(t));
+  const peak=by('PEAK')&&!(by('OFF_PEAK')&&by('PEAK')===by('OFF_PEAK'))?r.find(x=>x.type==='PEAK'):null;
+  const map={PEAK:r.find(x=>x.type==='PEAK'),OFF_PEAK:r.find(x=>x.type==='OFF_PEAK'),SHOULDER:r.find(x=>x.type==='SHOULDER')};
+  let rt=map[type]; if(rt)return rt.cents_per_kwh;
+  // fallbacks: shoulder→peak, offpeak→shoulder→peak
+  if(type==='SHOULDER')rt=map.PEAK||map.OFF_PEAK;
+  if(type==='OFF_PEAK')rt=map.SHOULDER||map.PEAK;
+  if(type==='PEAK')rt=map.SHOULDER||map.OFF_PEAK;
+  return rt?rt.cents_per_kwh: (r[0]?r[0].cents_per_kwh:null);
+}
+function model(plan,inp,scen){
+  const gen = scen==='none'?0:inp.solarKw*inp.yld;
+  let self=0;
+  if(gen>0){
+    const base=Math.min(gen*inp.sc, inp.kwh*inp.day, gen);
+    let extra=0;
+    if(scen==='battery'&&inp.battKwh>0){
+      const exportAvail=gen-base;
+      const eveningLoad=Math.max(0,inp.kwh-inp.kwh*inp.day-base);
+      const throughput=inp.battKwh*365*inp.rte;
+      extra=Math.max(0,Math.min(exportAvail,eveningLoad,throughput));
+    }
+    self=Math.min(gen,inp.kwh,base+extra);
+  }
+  const exported=Math.max(0,gen-self);
+  const gridImport=Math.max(0,inp.kwh-self);
+
+  let usage=null, costable=true;
+  if(plan.tariff_type==='SINGLE_RATE'&&plan.single_rate_cents_per_kwh!=null){
+    usage=gridImport*plan.single_rate_cents_per_kwh/100;
+  }else if(plan.tariff_type==='TIME_OF_USE'&&(plan.usage_rates||[]).length){
+    const p=touRate(plan,'PEAK'),s=touRate(plan,'SHOULDER'),o=touRate(plan,'OFF_PEAK');
+    if(p==null){costable=false;}
+    else usage=gridImport*(inp.touSplit.peak*p+inp.touSplit.shoulder*(s??p)+inp.touSplit.offpeak*(o??p))/100;
+  }else if(plan.single_rate_cents_per_kwh!=null){
+    usage=gridImport*plan.single_rate_cents_per_kwh/100;
+  }else{costable=false;}
+
+  const supply=(plan.supply_cents_per_day!=null)?plan.supply_cents_per_day/100*365:null;
+  if(supply==null)costable=false;
+  const fit=plan.feed_in_cents_per_kwh||0;
+  const fitCredit=exported*fit/100;
+  const net=costable?(supply+usage-fitCredit):null;
+  return {net,supply,usage,fitCredit,gen,self,exported,gridImport,costable};
+}
+
+/* ---------- recompute + render ---------- */
+function recompute(){
+  if(!DATA)return;
+  const inp=inputs();
+  $('#touHint').textContent = SCEN==='none'?'':'TOU import split ≈ 32/30/38 peak/shoulder/off';
+  ROWS = DATA.plans.map(p=>{
+    const cur=model(p,inp,SCEN);
+    const none=model(p,inp,'none');
+    return {p, cur, none, save:(cur.costable&&none.costable)?(none.net-cur.net):null};
+  });
+  renderHero(inp);
+  renderTable();
+}
+function passFilter(r){
+  const p=r.p;
+  if(FILT.single && p.tariff_type!=='SINGLE_RATE') return false;
+  if(FILT.market && p.type!=='MARKET') return false;
+  if(FILT.nocond && p.pay_on_time_only) return false;
+  if(FILT.q){
+    const hay=((p.display_name||'')+' '+(p.brand_name||'')).toLowerCase();
+    if(!hay.includes(FILT.q)) return false;
+  }
+  return true;
+}
+function sorted(list){
+  const k=SORT.k,dir=SORT.dir;
+  const val=r=>({
+    rank:0, name:(r.p.brand_name||'')+ (r.p.display_name||''),
+    type:r.p.type||'', supply:r.p.supply_cents_per_day,
+    usage:r.p.single_rate_cents_per_kwh ?? (r.p.usage_rates&&r.p.usage_rates[0]?r.p.usage_rates[0].cents_per_kwh:null),
+    fit:r.p.feed_in_cents_per_kwh, save:r.save, net:r.cur.net
+  })[k];
+  return [...list].sort((a,b)=>{
+    let x=val(a),y=val(b);
+    const xn=(x==null||Number.isNaN(x)), yn=(y==null||Number.isNaN(y));
+    if(xn&&yn)return 0; if(xn)return 1; if(yn)return -1;        // nulls last always
+    if(typeof x==='string')return dir*x.localeCompare(y);
+    return dir*(x-y);
+  });
+}
+function renderTable(){
+  const list=sorted(ROWS.filter(passFilter));
+  $('#count').textContent=list.length+' shown';
+  const tb=$('#rows'); tb.innerHTML='';
+  list.forEach((r,i)=>{
+    const p=r.p, net=r.cur.net;
+    const usage = p.tariff_type==='SINGLE_RATE' ? c1(p.single_rate_cents_per_kwh)
+                 : (p.usage_rates&&p.usage_rates.length? 'TOU' : '—');
+    const tr=document.createElement('tr');
+    if(i===0&&SORT.k==='net'&&SORT.dir===1)tr.className='top';
+    const saveCell = r.save==null?'<span class="nodata">—</span>'
+        : '<span class="save'+(r.save<0?' neg':'')+'">'+(r.save>=0?'+':'')+fmt(r.save)+'</span>';
+    const netCell = net==null? '<span class="nodata">no rate</span>'
+        : '<span class="net '+(i<3?'cheap':'')+'">'+fmt(net)+'</span>';
+    tr.innerHTML=
+      '<td class="l rank '+(i===0?'one':'')+'">'+(i+1)+'</td>'+
+      '<td class="l"><div class="pname">'+esc(p.display_name||'Plan')+'</div>'+
+        '<div class="pbrand">'+esc(p.brand_name||'')+(p.pay_on_time_only?' · <span class="warnico" title="Best price needs on-time payment">⚠ cond.</span>':'')+'</div></td>'+
+      '<td class="hidem">'+typeTag(p)+'</td>'+
+      '<td class="hidem">'+c1(p.supply_cents_per_day)+'</td>'+
+      '<td class="hidem">'+usage+'</td>'+
+      '<td>'+c1(p.feed_in_cents_per_kwh)+'</td>'+
+      '<td class="hidem">'+saveCell+'</td>'+
+      '<td>'+netCell+'</td>';
+    tr.addEventListener('click',()=>openDrawer(r));
+    tb.appendChild(tr);
+  });
+}
+function typeTag(p){
+  if(p.type==='STANDING')return '<span class="tag standing">standing</span>';
+  if(p.tariff_type==='TIME_OF_USE')return '<span class="tag tou">TOU</span>';
+  return '<span class="tag">market</span>';
+}
+function renderHero(inp){
+  const costable=ROWS.filter(r=>r.cur.costable);
+  if(!costable.length){$('#heroName').textContent='No costable plans';return;}
+  const best=costable.reduce((a,b)=>a.cur.net<b.cur.net?a:b);
+  const p=best.p;
+  $('#heroName').textContent=p.display_name||'Plan';
+  $('#heroMeta').textContent=(p.brand_name||'')+' · '+(p.tariff_type==='TIME_OF_USE'?'time-of-use':'single rate')+' · '+c1(p.feed_in_cents_per_kwh)+'c feed-in';
+  $('#heroNum').innerHTML=fmt(best.cur.net)+'<small>/yr est.</small>';
+  const none=model(p,inp,'none'), solar=model(p,inp,'solar'), battery=model(p,inp,'battery');
+  const max=Math.max(none.net,solar.net,battery.net,1);
+  const row=(lab,m,cls)=>`<div class="bar"><span class="blab">${lab}</span>
+     <div class="track"><div class="fill ${cls}" style="width:${Math.max(4,m.net/max*100)}%"></div></div>
+     <span class="amt">${fmt(m.net)}</span></div>`;
+  $('#heroBars').innerHTML=row('No solar',none,'none')+row('Solar',solar,'solar')+row('+ Battery',battery,'battery');
+  const sv=none.net-best.cur.net;
+  $('#heroSave').innerHTML = SCEN==='none'?'Pick a solar scenario above to see savings.'
+    : `Versus no solar, this setup saves <b>${fmt(sv)}/yr</b> on this plan.`;
+}
+
+/* ---------- drawer ---------- */
+function openDrawer(r){
+  const p=r.p,inp=inputs(),m=r.cur;
+  const rates=(p.usage_rates||[]).map(u=>`<div class="kv"><span>${esc(u.name||u.type)}</span><span>${c1(u.cents_per_kwh)} c/kWh</span></div>`).join('')||'<div class="note">No usage rate published.</div>';
+  const fits=(p.feed_in_detail||[]).filter(f=>f.cents_per_kwh!=null).map(f=>`<div class="kv"><span>${esc(f.display_name||f.scheme||'Feed-in')}</span><span>${c1(f.cents_per_kwh)} c/kWh</span></div>`).join('')||'<div class="note">No feed-in tariff published.</div>';
+  $('#drawerBody').innerHTML=`
+    <h3>${esc(p.display_name||'Plan')}</h3>
+    <div class="dbrand">${esc(p.brand_name||'')} · ${esc(p.type||'')} ${p.contract_term_months?'· '+p.contract_term_months+' mth':''}</div>
+    <div class="kv big"><span>Estimated annual cost</span><span>${m.costable?fmt(m.net):'—'}</span></div>
+    <div class="kv"><span>Supply charge</span><span>${m.supply!=null?fmt(m.supply):'—'} (${c1(p.supply_cents_per_day)}c/day)</span></div>
+    <div class="kv"><span>Grid import</span><span>${Math.round(m.gridImport)} kWh</span></div>
+    <div class="kv"><span>Energy cost</span><span>${m.usage!=null?fmt(m.usage):'—'}</span></div>
+    <div class="kv"><span>Solar exported</span><span>${Math.round(m.exported)} kWh</span></div>
+    <div class="kv"><span>Feed-in credit</span><span class="save">−${fmt(m.fitCredit)}</span></div>
+    <div class="sech">Usage rates</div>${rates}
+    ${p.controlled_load_cents_per_kwh!=null?'<div class="kv"><span>Controlled load</span><span>'+c1(p.controlled_load_cents_per_kwh)+' c/kWh</span></div>':''}
+    <div class="sech">Solar feed-in</div>${fits}
+    ${p.pay_on_time_only?'<div class="note">⚠ Headline price relies on a conditional/pay-on-time discount.</div>':''}
+    <div class="sech">Plan document</div>
+    <a href="${p.plan_doc_url}" target="_blank" rel="noopener">Open official plan info on Energy Made Easy ↗</a>
+    <div class="note">Plan ID: ${esc(p.plan_id||'')}</div>`;
+  $('#drawer').classList.add('open'); $('#backdrop').classList.add('show');
+}
+function closeDrawer(){$('#drawer').classList.remove('open');$('#backdrop').classList.remove('show');}
+$('#drawerX').onclick=closeDrawer; $('#backdrop').onclick=closeDrawer;
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeDrawer();});
+
+/* ---------- wiring ---------- */
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function syncLabels(){
+  $('#kwhVal').textContent=(+$('#kwh').value).toLocaleString()+' kWh';
+  $('#solarVal').textContent=(+$('#solar').value).toFixed(1)+' kW';
+  $('#battVal').textContent=(+$('#batt').value)===0?'none':(+$('#batt').value)+' kWh';
+  $('#scVal').textContent=$('#sc').value+'%';
+  $('#dayVal').textContent=$('#day').value+'%';
+  $('#yieldVal').textContent=$('#yield').value+' kWh/kW';
+}
+['kwh','solar','batt','sc','day','yield'].forEach(id=>{
+  $('#'+id).addEventListener('input',()=>{syncLabels();recompute();});
+});
+$('#seg').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b)return;
+  [...$('#seg').children].forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); SCEN=b.dataset.s; recompute();
+});
+document.querySelectorAll('thead th').forEach(th=>{
+  th.addEventListener('click',()=>{
+    const k=th.dataset.k;
+    if(SORT.k===k)SORT.dir*=-1; else {SORT.k=k; SORT.dir=(k==='name')?1:1;}
+    document.querySelectorAll('thead th').forEach(x=>{x.classList.remove('sorted');
+      x.querySelector('.ar')&&x.querySelector('.ar').remove();});
+    th.classList.add('sorted');
+    renderTable();
+  });
+});
+$('#search').addEventListener('input',e=>{FILT.q=e.target.value.toLowerCase().trim();renderTable();});
+document.querySelectorAll('.chip').forEach(ch=>{
+  ch.addEventListener('click',()=>{ch.classList.toggle('on');FILT[ch.dataset.f]=ch.classList.contains('on');renderTable();});
+});
+
+syncLabels(); boot();
+</script>
+</body>
+</html>
