@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T04:59:06.746364+00:00",
+  "generated_at": "2026-06-14T22:30:53.679016+00:00",
   "source": "AER Consumer Data Right Energy PRD (cdr.energymadeeasy.gov.au) - same data as Energy Made Easy",
   "region": "South Australia (SA Power Networks)",
   "fuel": "ELECTRICITY",
@@ -44848,6 +44848,2946 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=AGL100552SRE30@EME"
     },
     {
+      "plan_id": "ENE676762MRE10@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Third Party Offer",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676762MRE10@EME"
+    },
+    {
+      "plan_id": "ENE379831MRE22@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Flexi Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE379831MRE22@EME"
+    },
+    {
+      "plan_id": "ENE681819MRE11@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Rate Fix",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE681819MRE11@EME"
+    },
+    {
+      "plan_id": "ENE379811MRE22@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Flexi Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE379811MRE22@EME"
+    },
+    {
+      "plan_id": "ENE676772MRE10@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Connect Now",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676772MRE10@EME"
+    },
+    {
+      "plan_id": "ENE94153SRE32@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Standing Offer (Home)",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "10.9"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE94153SRE32@EME"
+    },
+    {
+      "plan_id": "ENE996210MRE3@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Residential Connections",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996210MRE3@EME"
+    },
+    {
+      "plan_id": "ENE360412MRE26@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Solar Max",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 8.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Max Superior Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 8.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360412MRE26@EME"
+    },
+    {
+      "plan_id": "ENE996209MRE3@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - My Connect",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996209MRE3@EME"
+    },
+    {
+      "plan_id": "ENE676773MRE10@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Connect Now",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676773MRE10@EME"
+    },
+    {
+      "plan_id": "ENE681802MRE11@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Rate Fix",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE681802MRE11@EME"
+    },
+    {
+      "plan_id": "ENE676769MRE10@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Third Party Offer",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676769MRE10@EME"
+    },
+    {
+      "plan_id": "ENE996213MRE3@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Residential Connections",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996213MRE3@EME"
+    },
+    {
+      "plan_id": "ENE676774MRE10@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Connect Now",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676774MRE10@EME"
+    },
+    {
+      "plan_id": "ENE996206MRE3@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - My Connect",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996206MRE3@EME"
+    },
+    {
+      "plan_id": "ENE247405SRE28@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Standing Offer (Home)",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "10.9"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE247405SRE28@EME"
+    },
+    {
+      "plan_id": "ENE360428MRE26@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Solar Max",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 8.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Max Superior Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 8.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360428MRE26@EME"
+    },
+    {
+      "plan_id": "ENE681809MRE11@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Rate Fix",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE681809MRE11@EME"
+    },
+    {
+      "plan_id": "ENE379838MRE22@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Flexi Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE379838MRE22@EME"
+    },
+    {
+      "plan_id": "ENE676771MRE10@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Connect Now",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676771MRE10@EME"
+    },
+    {
+      "plan_id": "ENE996211MRE3@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Residential Connections",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996211MRE3@EME"
+    },
+    {
+      "plan_id": "ENE19189SRE39@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Standing Offer (Home)",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "10.9"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE19189SRE39@EME"
+    },
+    {
+      "plan_id": "ENE676761MRE10@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Third Party Offer",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676761MRE10@EME"
+    },
+    {
+      "plan_id": "ENE996207MRE3@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - My Connect",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996207MRE3@EME"
+    },
+    {
+      "plan_id": "ENE996212MRE3@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Residential Connections",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996212MRE3@EME"
+    },
+    {
+      "plan_id": "ENE360418MRE26@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Solar Max",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 8.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Max Superior Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 8.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360418MRE26@EME"
+    },
+    {
+      "plan_id": "ENE996208MRE3@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - My Connect",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996208MRE3@EME"
+    },
+    {
+      "plan_id": "ENE676768MRE10@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Balance Plan - Third Party Offer",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676768MRE10@EME"
+    },
+    {
+      "plan_id": "ENE681811MRE11@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Rate Fix",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 56.0
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.0
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.5
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE681811MRE11@EME"
+    },
+    {
+      "plan_id": "ENE19219SRE39@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Standing Offer (Home)",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "10.9"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE19219SRE39@EME"
+    },
+    {
+      "plan_id": "ENE379843MRE22@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Flexi Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Government Regulated Feed-in-Tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE379843MRE22@EME"
+    },
+    {
+      "plan_id": "ENE360429MRE26@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Solar Max",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 41.984,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 41.984
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 8.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Max Superior Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 8.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Retailer Feed-in-Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.69"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360429MRE26@EME"
+    },
+    {
       "plan_id": "ENE743520SBE13@EME",
       "brand": "energyaustralia",
       "brand_name": "EnergyAustralia",
@@ -46251,2946 +49191,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE120649SBE21@EME"
-    },
-    {
-      "plan_id": "ENE996208MRE3@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - My Connect",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996208MRE3@EME"
-    },
-    {
-      "plan_id": "ENE996206MRE3@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - My Connect",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996206MRE3@EME"
-    },
-    {
-      "plan_id": "ENE996207MRE3@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - My Connect",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996207MRE3@EME"
-    },
-    {
-      "plan_id": "ENE996209MRE3@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - My Connect",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996209MRE3@EME"
-    },
-    {
-      "plan_id": "ENE996212MRE3@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Residential Connections",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996212MRE3@EME"
-    },
-    {
-      "plan_id": "ENE996213MRE3@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Residential Connections",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996213MRE3@EME"
-    },
-    {
-      "plan_id": "ENE996211MRE3@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Residential Connections",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996211MRE3@EME"
-    },
-    {
-      "plan_id": "ENE996210MRE3@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Residential Connections",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996210MRE3@EME"
-    },
-    {
-      "plan_id": "ENE94153SRE32@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Standing Offer (Home)",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "10.9"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE94153SRE32@EME"
-    },
-    {
-      "plan_id": "ENE681819MRE11@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Rate Fix",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE681819MRE11@EME"
-    },
-    {
-      "plan_id": "ENE681802MRE11@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Rate Fix",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE681802MRE11@EME"
-    },
-    {
-      "plan_id": "ENE676774MRE10@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Connect Now",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676774MRE10@EME"
-    },
-    {
-      "plan_id": "ENE681811MRE11@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Rate Fix",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE681811MRE11@EME"
-    },
-    {
-      "plan_id": "ENE681809MRE11@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Rate Fix",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE681809MRE11@EME"
-    },
-    {
-      "plan_id": "ENE676772MRE10@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Connect Now",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676772MRE10@EME"
-    },
-    {
-      "plan_id": "ENE676768MRE10@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Third Party Offer",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676768MRE10@EME"
-    },
-    {
-      "plan_id": "ENE676771MRE10@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Connect Now",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676771MRE10@EME"
-    },
-    {
-      "plan_id": "ENE676773MRE10@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Connect Now",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676773MRE10@EME"
-    },
-    {
-      "plan_id": "ENE676769MRE10@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Third Party Offer",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676769MRE10@EME"
-    },
-    {
-      "plan_id": "ENE676761MRE10@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Third Party Offer",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676761MRE10@EME"
-    },
-    {
-      "plan_id": "ENE676762MRE10@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Balance Plan - Third Party Offer",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE676762MRE10@EME"
-    },
-    {
-      "plan_id": "ENE360428MRE26@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Solar Max",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 8.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Max Superior Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 8.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360428MRE26@EME"
-    },
-    {
-      "plan_id": "ENE379811MRE22@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Flexi Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE379811MRE22@EME"
-    },
-    {
-      "plan_id": "ENE360412MRE26@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Solar Max",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 8.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Max Superior Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 8.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360412MRE26@EME"
-    },
-    {
-      "plan_id": "ENE379838MRE22@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Flexi Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE379838MRE22@EME"
-    },
-    {
-      "plan_id": "ENE379831MRE22@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Flexi Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE379831MRE22@EME"
-    },
-    {
-      "plan_id": "ENE379843MRE22@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Flexi Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE379843MRE22@EME"
-    },
-    {
-      "plan_id": "ENE360429MRE26@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Solar Max",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 8.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Max Superior Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 8.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360429MRE26@EME"
-    },
-    {
-      "plan_id": "ENE360418MRE26@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Solar Max",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 8.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Max Superior Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 8.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360418MRE26@EME"
-    },
-    {
-      "plan_id": "ENE247405SRE28@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Standing Offer (Home)",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 56.0
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.0
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.5
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "10.9"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE247405SRE28@EME"
-    },
-    {
-      "plan_id": "ENE19219SRE39@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Standing Offer (Home)",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "10.9"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE19219SRE39@EME"
-    },
-    {
-      "plan_id": "ENE19189SRE39@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Standing Offer (Home)",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 41.984,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 41.984
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Retailer Feed-in-Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Government Regulated Feed-in-Tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "10.9"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.69"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE19189SRE39@EME"
     },
     {
       "plan_id": "ENG1048448MRE2@EME",
