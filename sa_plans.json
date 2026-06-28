@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T22:48:50.789642+00:00",
+  "generated_at": "2026-06-28T21:56:10.724487+00:00",
   "source": "AER Consumer Data Right Energy PRD (cdr.energymadeeasy.gov.au) - same data as Energy Made Easy",
   "region": "South Australia (SA Power Networks)",
   "fuel": "ELECTRICITY",
@@ -67701,74 +67701,10 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=1ST961471SBE1@EME"
     },
     {
-      "plan_id": "OVO723748MRE18@EME",
+      "plan_id": "OVO704386MRE20@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
-      "display_name": "The EV Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 59.74
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.95
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723748MRE18@EME"
-    },
-    {
-      "plan_id": "OVO723777MRE18@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The EV Plan",
+      "display_name": "The Basic Plan",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
@@ -67776,12 +67712,12 @@
       ],
       "supply_cents_per_day": null,
       "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 56.13,
+      "single_rate_cents_per_kwh": 40.95,
       "usage_rates": [
         {
           "name": "Anytime",
           "type": "SINGLE",
-          "cents_per_kwh": 56.13
+          "cents_per_kwh": 40.95
         }
       ],
       "controlled_load_cents_per_kwh": null,
@@ -67821,379 +67757,10 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723777MRE18@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704386MRE20@EME"
     },
     {
-      "plan_id": "OVO723774MRE18@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Basic EV Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 62.727
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 41.9475
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723774MRE18@EME"
-    },
-    {
-      "plan_id": "OVO723789MRE18@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Basic EV Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 62.727
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 41.9475
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723789MRE18@EME"
-    },
-    {
-      "plan_id": "OVO723775MRE18@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Basic EV Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 58.9365,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 58.9365
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723775MRE18@EME"
-    },
-    {
-      "plan_id": "OVO723780MRE18@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The EV Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 56.13,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 56.13
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723780MRE18@EME"
-    },
-    {
-      "plan_id": "OVO723743MRE18@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Basic EV Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 58.9365,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 58.9365
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723743MRE18@EME"
-    },
-    {
-      "plan_id": "OVO723814MRE18@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The EV Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 59.74
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.95
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723814MRE18@EME"
-    },
-    {
-      "plan_id": "OVO704349MRE19@EME",
+      "plan_id": "OVO704348MRE19@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
       "display_name": "The Basic Free 3 Plan",
@@ -68256,343 +67823,7 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704349MRE19@EME"
-    },
-    {
-      "plan_id": "OVO704351MRE20@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Basic Free 3 Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 51.66
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 26.67
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.765
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Free 3 Rate",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "percentOfUse"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704351MRE20@EME"
-    },
-    {
-      "plan_id": "OVO704517MRE20@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The One Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 39.0,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 39.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704517MRE20@EME"
-    },
-    {
-      "plan_id": "OVO704474MRE19@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Free 3 Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 67.59,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 67.59
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Free 3 Rate",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "percentOfUse"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704474MRE19@EME"
-    },
-    {
-      "plan_id": "OVO704519MRE20@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The One Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 42.6
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 29.2
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 33.7
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704519MRE20@EME"
-    },
-    {
-      "plan_id": "OVO704473MRE19@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Free 3 Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 67.59,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 67.59
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Free 3 Rate",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "percentOfUse"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704473MRE19@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704348MRE19@EME"
     },
     {
       "plan_id": "OVO704350MRE20@EME",
@@ -68671,7 +67902,7 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704350MRE20@EME"
     },
     {
-      "plan_id": "OVO704475MRE19@EME",
+      "plan_id": "OVO704473MRE19@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
       "display_name": "The Free 3 Plan",
@@ -68681,23 +67912,13 @@
         "SA Power Networks"
       ],
       "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 67.59,
       "usage_rates": [
         {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 49.2
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 25.4
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 29.3
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 67.59
         }
       ],
       "controlled_load_cents_per_kwh": null,
@@ -68744,7 +67965,346 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704475MRE19@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704473MRE19@EME"
+    },
+    {
+      "plan_id": "OVO704387MRE20@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 44.73
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 30.66
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 35.385
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704387MRE20@EME"
+    },
+    {
+      "plan_id": "OVO704349MRE19@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic Free 3 Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 70.97,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 70.97
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Free 3 Rate",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "percentOfUse"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704349MRE19@EME"
+    },
+    {
+      "plan_id": "OVO704385MRE20@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.95,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.95
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704385MRE20@EME"
+    },
+    {
+      "plan_id": "OVO704351MRE20@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic Free 3 Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 51.66
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 26.67
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.765
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Free 3 Rate",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "percentOfUse"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704351MRE20@EME"
+    },
+    {
+      "plan_id": "OVO704388MRE20@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 44.73
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 30.66
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 35.385
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704388MRE20@EME"
     },
     {
       "plan_id": "OVO704476MRE19@EME",
@@ -68823,10 +68383,135 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704476MRE19@EME"
     },
     {
-      "plan_id": "OVO704388MRE20@EME",
+      "plan_id": "OVO704474MRE19@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
-      "display_name": "The Basic Plan",
+      "display_name": "The Free 3 Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 67.59,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 67.59
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Free 3 Rate",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "percentOfUse"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704474MRE19@EME"
+    },
+    {
+      "plan_id": "OVO723743MRE18@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 58.9365,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 58.9365
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723743MRE18@EME"
+    },
+    {
+      "plan_id": "OVO704519MRE20@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The One Plan",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
@@ -68839,17 +68524,17 @@
         {
           "name": "Peak",
           "type": "PEAK",
-          "cents_per_kwh": 44.73
+          "cents_per_kwh": 42.6
         },
         {
           "name": "Solar Sponge",
           "type": "SHOULDER",
-          "cents_per_kwh": 30.66
+          "cents_per_kwh": 29.2
         },
         {
           "name": "Off-Peak",
           "type": "OFF_PEAK",
-          "cents_per_kwh": 35.385
+          "cents_per_kwh": 33.7
         }
       ],
       "controlled_load_cents_per_kwh": null,
@@ -68889,69 +68574,10 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704388MRE20@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704519MRE20@EME"
     },
     {
-      "plan_id": "OVO704385MRE20@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Basic Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.95,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.95
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704385MRE20@EME"
-    },
-    {
-      "plan_id": "OVO704516MRE20@EME",
+      "plan_id": "OVO704517MRE20@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
       "display_name": "The One Plan",
@@ -69007,13 +68633,13 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704516MRE20@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704517MRE20@EME"
     },
     {
-      "plan_id": "OVO704387MRE20@EME",
+      "plan_id": "OVO723748MRE18@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
-      "display_name": "The Basic Plan",
+      "display_name": "The EV Plan",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
@@ -69026,17 +68652,12 @@
         {
           "name": "Peak",
           "type": "PEAK",
-          "cents_per_kwh": 44.73
+          "cents_per_kwh": 59.74
         },
         {
           "name": "Solar Sponge",
           "type": "SHOULDER",
-          "cents_per_kwh": 30.66
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 35.385
+          "cents_per_kwh": 39.95
         }
       ],
       "controlled_load_cents_per_kwh": null,
@@ -69076,7 +68697,139 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704387MRE20@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723748MRE18@EME"
+    },
+    {
+      "plan_id": "OVO704475MRE19@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Free 3 Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 49.2
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 25.4
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 29.3
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Free 3 Rate",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "percentOfUse"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704475MRE19@EME"
+    },
+    {
+      "plan_id": "OVO934259SRE1@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "Basic Standing Offer",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 43.4
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 29.4
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 33.9
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO934259SRE1@EME"
     },
     {
       "plan_id": "OVO704518MRE20@EME",
@@ -69148,10 +68901,10 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704518MRE20@EME"
     },
     {
-      "plan_id": "OVO704348MRE19@EME",
+      "plan_id": "OVO704516MRE20@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
-      "display_name": "The Basic Free 3 Plan",
+      "display_name": "The One Plan",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
@@ -69159,78 +68912,12 @@
       ],
       "supply_cents_per_day": null,
       "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 70.97,
+      "single_rate_cents_per_kwh": 39.0,
       "usage_rates": [
         {
           "name": "Anytime",
           "type": "SINGLE",
-          "cents_per_kwh": 70.97
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.5
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Free 3 Rate",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "percentOfUse"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704348MRE19@EME"
-    },
-    {
-      "plan_id": "OVO704386MRE20@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Basic Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.95,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.95
+          "cents_per_kwh": 39.0
         }
       ],
       "controlled_load_cents_per_kwh": null,
@@ -69270,7 +68957,7 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704386MRE20@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704516MRE20@EME"
     },
     {
       "plan_id": "OVO934312SBE1@EME",
@@ -69319,6 +69006,188 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO934312SBE1@EME"
     },
     {
+      "plan_id": "OVO723775MRE18@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 58.9365,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 58.9365
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723775MRE18@EME"
+    },
+    {
+      "plan_id": "OVO723774MRE18@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 62.727
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 41.9475
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723774MRE18@EME"
+    },
+    {
+      "plan_id": "OVO723780MRE18@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 56.13,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 56.13
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723780MRE18@EME"
+    },
+    {
       "plan_id": "OVO934310SRE1@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
@@ -69363,52 +69232,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO934310SRE1@EME"
-    },
-    {
-      "plan_id": "OVO934309SBE1@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "Basic Standing Offer",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 43.9,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 43.9
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO934309SBE1@EME"
     },
     {
       "plan_id": "OVO934296SRE1@EME",
@@ -69467,6 +69290,239 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO934296SRE1@EME"
     },
     {
+      "plan_id": "OVO723777MRE18@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 56.13,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 56.13
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723777MRE18@EME"
+    },
+    {
+      "plan_id": "OVO723789MRE18@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 62.727
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 41.9475
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723789MRE18@EME"
+    },
+    {
+      "plan_id": "OVO934309SBE1@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "Basic Standing Offer",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 43.9,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 43.9
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO934309SBE1@EME"
+    },
+    {
+      "plan_id": "OVO723814MRE18@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The EV Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 59.74
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.95
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.5
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO723814MRE18@EME"
+    },
+    {
       "plan_id": "OVO934277SRE1@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
@@ -69511,62 +69567,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO934277SRE1@EME"
-    },
-    {
-      "plan_id": "OVO934259SRE1@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "Basic Standing Offer",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 43.4
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 29.4
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 33.9
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "63.71"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO934259SRE1@EME"
     },
     {
       "plan_id": "BLU1096771MBE1@EME",
@@ -89854,7 +89854,7 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ZEN926426SRE1@EME"
     },
     {
-      "plan_id": "ELU1021362SRE2@EME",
+      "plan_id": "ELU1021362SRE3@EME",
       "brand": "energy-locals-urban",
       "brand_name": "Energy Locals Urban",
       "display_name": "Standing Offer",
@@ -89914,10 +89914,10 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ELU1021362SRE2@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ELU1021362SRE3@EME"
     },
     {
-      "plan_id": "ELU1021363SBE2@EME",
+      "plan_id": "ELU1021363SBE3@EME",
       "brand": "energy-locals-urban",
       "brand_name": "Energy Locals Urban",
       "display_name": "Standing Offer",
@@ -89977,7 +89977,7 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ELU1021363SBE2@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ELU1021363SBE3@EME"
     }
   ]
 }
