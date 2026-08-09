@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-02T19:24:32.251310+00:00",
+  "generated_at": "2026-08-09T18:56:13.189001+00:00",
   "source": "AER Consumer Data Right Energy PRD (cdr.energymadeeasy.gov.au) - same data as Energy Made Easy",
   "region": "South Australia (SA Power Networks)",
   "fuel": "ELECTRICITY",
   "gst_note": "Unit prices and supply charges are GST-inclusive, in cents.",
-  "plan_count": 922,
+  "plan_count": 926,
   "plans": [
     {
       "plan_id": "LCL1066189SRE2@EME",
@@ -1797,7 +1797,7 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=LCL1116814MBE1@EME"
     },
     {
-      "plan_id": "ORI1154131MRE1@EME",
+      "plan_id": "ORI1154131MRE2@EME",
       "brand": "origin",
       "brand_name": "Origin Energy",
       "display_name": "Origin Go Variable Ongoing  - New & Move Customers only",
@@ -1903,10 +1903,10 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1154131MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1154131MRE2@EME"
     },
     {
-      "plan_id": "ORI1154135MRE1@EME",
+      "plan_id": "ORI1154135MRE2@EME",
       "brand": "origin",
       "brand_name": "Origin Energy",
       "display_name": "Origin Go Variable Ongoing  - New & Move Customers only",
@@ -2002,10 +2002,10 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1154135MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1154135MRE2@EME"
     },
     {
-      "plan_id": "ORI1154132MRE1@EME",
+      "plan_id": "ORI1154132MRE2@EME",
       "brand": "origin",
       "brand_name": "Origin Energy",
       "display_name": "Origin Go Variable Ongoing  - New & Move Customers only",
@@ -2101,7 +2101,7 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1154132MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1154132MRE2@EME"
     },
     {
       "plan_id": "ORI1145482MRE1@EME",
@@ -49215,989 +49215,7 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=PSH1060379SBE1@EME"
     },
     {
-      "plan_id": "DIA1122044MRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Everyday - Single Rate",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 38.1003,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 38.1003
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Diamond Feed in Credit",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "SA Distributor feed-in tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122044MRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122046MRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Everyday - Time of Use",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 50.9898
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 28.7426
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 12.9863
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Diamond Feed in Credit",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "SA Distributor feed-in tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122046MRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122059MRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Everyday - Daylight",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 53.2922
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.563
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER1",
-          "cents_per_kwh": 14.3915
-        },
-        {
-          "name": "Free Usage Period",
-          "type": "SHOULDER2",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Diamond Feed in Credit",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "SA Distributor feed-in tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122059MRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122062SRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Solar Sharer Offer",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 53.4927
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 31.9734
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER1",
-          "cents_per_kwh": 17.8756
-        },
-        {
-          "name": "Free Usage Period",
-          "type": "SHOULDER2",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122062SRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122043MRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Everyday - Single Rate",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 38.1003,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 38.1003
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Diamond Feed in Credit",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "SA Distributor feed-in tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122043MRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122057SBE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Time of Use",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 69.0199
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6564
-        },
-        {
-          "name": "Shoulder|Winter Apr-Oct",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6564
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122057SBE1@EME"
-    },
-    {
-      "plan_id": "DIA1122061SRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Solar Sharer Offer",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 53.4927
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 31.9734
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER1",
-          "cents_per_kwh": 17.8756
-        },
-        {
-          "name": "Free Usage Period",
-          "type": "SHOULDER2",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122061SRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122045MRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Everyday - Time of Use",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 50.9898
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 28.7426
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 12.9863
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Diamond Feed in Credit",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "SA Distributor feed-in tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122045MRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122047MBE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Everyday - Single Rate",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.7681,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.7681
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Diamond Feed in Credit",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "SA Distributor feed-in tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122047MBE1@EME"
-    },
-    {
-      "plan_id": "DIA1122058SBE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Time of Use",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 69.0199
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6564
-        },
-        {
-          "name": "Shoulder|Winter Apr-Oct",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6564
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122058SBE1@EME"
-    },
-    {
-      "plan_id": "DIA1122055SBE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Single Rate",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.7681,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.7681
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122055SBE1@EME"
-    },
-    {
-      "plan_id": "DIA1122056SBE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Single Rate",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.7681,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.7681
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122056SBE1@EME"
-    },
-    {
-      "plan_id": "DIA1122051SRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Single Rate",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 38.1003,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 38.1003
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122051SRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122060MRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Everyday - Daylight",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 53.2922
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 30.563
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER1",
-          "cents_per_kwh": 14.3915
-        },
-        {
-          "name": "Free Usage Period",
-          "type": "SHOULDER2",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Diamond Feed in Credit",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "SA Distributor feed-in tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122060MRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122052SRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Single Rate",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 38.1003,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 38.1003
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122052SRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122054SRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Time of Use",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 51.1107
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 29.5915
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 15.4937
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122054SRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122053SRE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Standing - Time of Use",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 51.1107
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 29.5915
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 15.4937
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": null,
-      "feed_in_detail": [],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122053SRE1@EME"
-    },
-    {
-      "plan_id": "DIA1122048MBE1@EME",
-      "brand": "diamond",
-      "brand_name": "Diamond Energy",
-      "display_name": "Diamond Everyday - Single Rate",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.7681,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.7681
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Diamond Feed in Credit",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "SA Distributor feed-in tariff",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "60.49"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "60.49"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122048MBE1@EME"
-    },
-    {
-      "plan_id": "DIA1122050MBE1@EME",
+      "plan_id": "DIA1122050MBE2@EME",
       "brand": "diamond",
       "brand_name": "Diamond Energy",
       "display_name": "Diamond Everyday - Time of Use",
@@ -50268,10 +49286,673 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122050MBE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122050MBE2@EME"
     },
     {
-      "plan_id": "DIA1122049MBE1@EME",
+      "plan_id": "DIA1122045MRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Everyday - Time of Use",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 50.9898
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.7426
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 12.9863
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Diamond Feed in Credit",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.1
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "SA Distributor feed-in tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122045MRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122048MBE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Everyday - Single Rate",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.7681,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.7681
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Diamond Feed in Credit",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.1
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "SA Distributor feed-in tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122048MBE2@EME"
+    },
+    {
+      "plan_id": "DIA1122043MRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Everyday - Single Rate",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 38.1003,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 38.1003
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Diamond Feed in Credit",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.1
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "SA Distributor feed-in tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122043MRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122051SRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Single Rate",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 38.1003,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 38.1003
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122051SRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122044MRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Everyday - Single Rate",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 38.1003,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 38.1003
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Diamond Feed in Credit",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.1
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "SA Distributor feed-in tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122044MRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122054SRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Time of Use",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 51.1107
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 29.5915
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 15.4937
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122054SRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122062SRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Solar Sharer Offer",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 53.4927
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 31.9734
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER1",
+          "cents_per_kwh": 17.8756
+        },
+        {
+          "name": "Free Usage Period",
+          "type": "SHOULDER2",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122062SRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122046MRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Everyday - Time of Use",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 50.9898
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.7426
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 12.9863
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Diamond Feed in Credit",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.1
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "SA Distributor feed-in tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122046MRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122047MBE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Everyday - Single Rate",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.7681,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.7681
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Diamond Feed in Credit",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.1
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "SA Distributor feed-in tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122047MBE2@EME"
+    },
+    {
+      "plan_id": "DIA1122052SRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Single Rate",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 38.1003,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 38.1003
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122052SRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122059MRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Everyday - Daylight",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 53.2922
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.563
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER1",
+          "cents_per_kwh": 14.3915
+        },
+        {
+          "name": "Free Usage Period",
+          "type": "SHOULDER2",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Diamond Feed in Credit",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.1
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "SA Distributor feed-in tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122059MRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122057SBE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Time of Use",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 69.0199
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6564
+        },
+        {
+          "name": "Shoulder|Winter Apr-Oct",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6564
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122057SBE2@EME"
+    },
+    {
+      "plan_id": "DIA1122049MBE2@EME",
       "brand": "diamond",
       "brand_name": "Diamond Energy",
       "display_name": "Diamond Everyday - Time of Use",
@@ -50342,7 +50023,326 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122049MBE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122049MBE2@EME"
+    },
+    {
+      "plan_id": "DIA1122053SRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Time of Use",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 51.1107
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 29.5915
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 15.4937
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122053SRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122055SBE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Single Rate",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.7681,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.7681
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122055SBE2@EME"
+    },
+    {
+      "plan_id": "DIA1122056SBE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Single Rate",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.7681,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.7681
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122056SBE2@EME"
+    },
+    {
+      "plan_id": "DIA1122061SRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Solar Sharer Offer",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 53.4927
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 31.9734
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER1",
+          "cents_per_kwh": 17.8756
+        },
+        {
+          "name": "Free Usage Period",
+          "type": "SHOULDER2",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122061SRE2@EME"
+    },
+    {
+      "plan_id": "DIA1122058SBE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Standing - Time of Use",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 69.0199
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6564
+        },
+        {
+          "name": "Shoulder|Winter Apr-Oct",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6564
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122058SBE2@EME"
+    },
+    {
+      "plan_id": "DIA1122060MRE2@EME",
+      "brand": "diamond",
+      "brand_name": "Diamond Energy",
+      "display_name": "Diamond Everyday - Daylight",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 53.2922
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 30.563
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER1",
+          "cents_per_kwh": 14.3915
+        },
+        {
+          "name": "Free Usage Period",
+          "type": "SHOULDER2",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Diamond Feed in Credit",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.1
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "SA Distributor feed-in tariff",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "60.49"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "60.49"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=DIA1122060MRE2@EME"
     },
     {
       "plan_id": "COV1147898MBE1@EME",
@@ -54305,80 +54305,6 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=1ST1123737MRE1@EME"
     },
     {
-      "plan_id": "OVO704476MRE23@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Free 4 Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 51.11
-        },
-        {
-          "name": "Solar Sponge",
-          "type": "SHOULDER",
-          "cents_per_kwh": 15.49
-        },
-        {
-          "name": "Off-Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 29.59
-        },
-        {
-          "name": "Shoulder 1",
-          "type": "SHOULDER1",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704476MRE23@EME"
-    },
-    {
       "plan_id": "OVO704474MRE23@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
@@ -54441,70 +54367,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704474MRE23@EME"
-    },
-    {
-      "plan_id": "OVO704473MRE23@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Free 4 Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 38.1
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704473MRE23@EME"
     },
     {
       "plan_id": "OVO704475MRE23@EME",
@@ -54645,6 +54507,208 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704349MRE23@EME"
     },
     {
+      "plan_id": "OVO704350MRE24@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic Free 4 Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 53.6655
+        },
+        {
+          "name": "Solar Sponge",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.2645
+        },
+        {
+          "name": "Off-Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 31.0695
+        },
+        {
+          "name": "Shoulder 1",
+          "type": "SHOULDER1",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704350MRE24@EME"
+    },
+    {
+      "plan_id": "OVO704348MRE23@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Basic Free 4 Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 40.005
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704348MRE23@EME"
+    },
+    {
+      "plan_id": "OVO704473MRE23@EME",
+      "brand": "ovo-energy",
+      "brand_name": "OVO Energy",
+      "display_name": "The Free 4 Plan",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 38.1
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 1.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Government FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "0.00"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704473MRE23@EME"
+    },
+    {
       "plan_id": "OVO704351MRE24@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
@@ -54719,10 +54783,10 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704351MRE24@EME"
     },
     {
-      "plan_id": "OVO704348MRE23@EME",
+      "plan_id": "OVO704476MRE23@EME",
       "brand": "ovo-energy",
       "brand_name": "OVO Energy",
-      "display_name": "The Basic Free 4 Plan",
+      "display_name": "The Free 4 Plan",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
@@ -54735,81 +54799,17 @@
         {
           "name": "Peak",
           "type": "PEAK",
-          "cents_per_kwh": 40.005
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 1.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Government FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "0.00"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704348MRE23@EME"
-    },
-    {
-      "plan_id": "OVO704350MRE24@EME",
-      "brand": "ovo-energy",
-      "brand_name": "OVO Energy",
-      "display_name": "The Basic Free 4 Plan",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 53.6655
+          "cents_per_kwh": 51.11
         },
         {
           "name": "Solar Sponge",
           "type": "SHOULDER",
-          "cents_per_kwh": 16.2645
+          "cents_per_kwh": 15.49
         },
         {
           "name": "Off-Peak",
           "type": "OFF_PEAK",
-          "cents_per_kwh": 31.0695
+          "cents_per_kwh": 29.59
         },
         {
           "name": "Shoulder 1",
@@ -54854,7 +54854,7 @@
       "green_power": true,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704350MRE24@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=OVO704476MRE23@EME"
     },
     {
       "plan_id": "OVO1110158SRE3@EME",
@@ -58270,10 +58270,208 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=BLU940564SBE1@EME"
     },
     {
-      "plan_id": "NTR1109642MRE1@EME",
+      "plan_id": "NTR1154736MRE1@EME",
       "brand": "nectr",
       "brand_name": "Nectr",
-      "display_name": "Nectr GreenPower Time of Use + CL 2",
+      "display_name": "Nectr GreenPower + CL 2 - August 2026",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 37.7192,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 37.7192
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Refer a Friend Credit",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1154736MRE1@EME"
+    },
+    {
+      "plan_id": "NTR1154735MRE1@EME",
+      "brand": "nectr",
+      "brand_name": "Nectr",
+      "display_name": "Nectr GreenPower + CL 1 - August 2026",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 37.7192,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 37.7192
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Refer a Friend Credit",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1154735MRE1@EME"
+    },
+    {
+      "plan_id": "NTR1154734MRE1@EME",
+      "brand": "nectr",
+      "brand_name": "Nectr",
+      "display_name": "Nectr GreenPower - August 2026",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 37.7192,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 37.7192
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Refer a Friend Credit",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1154734MRE1@EME"
+    },
+    {
+      "plan_id": "NTR1154737MRE1@EME",
+      "brand": "nectr",
+      "brand_name": "Nectr",
+      "display_name": "Nectr GreenPower TOU - August 2026",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
@@ -58343,13 +58541,13 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1109642MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1154737MRE1@EME"
     },
     {
-      "plan_id": "NTR1109641MRE1@EME",
+      "plan_id": "NTR1154739MRE1@EME",
       "brand": "nectr",
       "brand_name": "Nectr",
-      "display_name": "Nectr GreenPower Time of Use + CL 1",
+      "display_name": "Nectr GreenPower TOU + CL 2 - August 2026",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
@@ -58419,145 +58617,13 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1109641MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1154739MRE1@EME"
     },
     {
-      "plan_id": "NTR1109639MRE1@EME",
+      "plan_id": "NTR1154738MRE1@EME",
       "brand": "nectr",
       "brand_name": "Nectr",
-      "display_name": "Nectr GreenPower + CL 2",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 37.7192,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 37.7192
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Refer a Friend Credit",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "fixedAmount"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1109639MRE1@EME"
-    },
-    {
-      "plan_id": "NTR1109638MRE1@EME",
-      "brand": "nectr",
-      "brand_name": "Nectr",
-      "display_name": "Nectr GreenPower + CL 1",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 37.7192,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 37.7192
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Refer a Friend Credit",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "fixedAmount"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1109638MRE1@EME"
-    },
-    {
-      "plan_id": "NTR1109640MRE1@EME",
-      "brand": "nectr",
-      "brand_name": "Nectr",
-      "display_name": "Nectr GreenPower Time of Use",
+      "display_name": "Nectr GreenPower TOU + CL 1 - August 2026",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
@@ -58627,73 +58693,7 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1109640MRE1@EME"
-    },
-    {
-      "plan_id": "NTR1109637MRE1@EME",
-      "brand": "nectr",
-      "brand_name": "Nectr",
-      "display_name": "Nectr GreenPower",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 37.7192,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 37.7192
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Refer a Friend Credit",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "fixedAmount"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1109637MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=NTR1154738MRE1@EME"
     },
     {
       "plan_id": "DOD221764SBE10@EME",
@@ -73084,207 +73084,7 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=AMB1126156MRE1@EME"
     },
     {
-      "plan_id": "FEA1141775MRE1@EME",
-      "brand": "flipped",
-      "brand_name": "Flipped Energy",
-      "display_name": "HomeGrid Anytime Controlled Load",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 23.0,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 23.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 0.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Feed In Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "discounts": [],
-      "fees": [],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1141775MRE1@EME"
-    },
-    {
-      "plan_id": "FEA1141774MRE1@EME",
-      "brand": "flipped",
-      "brand_name": "Flipped Energy",
-      "display_name": "HomeGrid Anytime",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 23.0,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 23.0
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 0.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Feed In Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.0
-        }
-      ],
-      "discounts": [],
-      "fees": [],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1141774MRE1@EME"
-    },
-    {
-      "plan_id": "FEA1141163MBE1@EME",
-      "brand": "flipped",
-      "brand_name": "Flipped Energy",
-      "display_name": "Business Freedom Switched On 2.2!",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Day",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 21.2129
-        },
-        {
-          "name": "Evening",
-          "type": "PEAK",
-          "cents_per_kwh": 57.6038
-        },
-        {
-          "name": "Overnight",
-          "type": "SHOULDER",
-          "cents_per_kwh": 35.461
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 2.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Feed In Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 2.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "DD_DISHONOUR",
-          "amount": "38.50"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1141163MBE1@EME"
-    },
-    {
-      "plan_id": "FEA1141157MRE1@EME",
-      "brand": "flipped",
-      "brand_name": "Flipped Energy",
-      "display_name": "Freedom Switched On 2.2! Controlled Load",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Day",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 11.9604
-        },
-        {
-          "name": "Evening",
-          "type": "PEAK",
-          "cents_per_kwh": 57.563
-        },
-        {
-          "name": "Overnight",
-          "type": "SHOULDER",
-          "cents_per_kwh": 38.5559
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 2.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Feed In Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 2.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "DD_DISHONOUR",
-          "amount": "38.50"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1141157MRE1@EME"
-    },
-    {
-      "plan_id": "FEA1141166MRE1@EME",
+      "plan_id": "FEA1154607MRE1@EME",
       "brand": "flipped",
       "brand_name": "Flipped Energy",
       "display_name": "Freedom Switched On 2.2!",
@@ -73321,81 +73121,6 @@
           "display_name": "Solar Feed In Tariff",
           "payer_type": "RETAILER",
           "cents_per_kwh": 2.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "DD_DISHONOUR",
-          "amount": "38.50"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1141166MRE1@EME"
-    },
-    {
-      "plan_id": "FEA1136863MRE1@EME",
-      "brand": "flipped",
-      "brand_name": "Flipped Energy",
-      "display_name": "Freedom Switched On 2.2!",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Day",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 12.7233
-        },
-        {
-          "name": "Evening",
-          "type": "PEAK",
-          "cents_per_kwh": 58.4356
-        },
-        {
-          "name": "Overnight",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.4166
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 11.1,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Day",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 2.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Evening",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 11.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Overnight",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 4.502
         }
       ],
       "discounts": [
@@ -73436,10 +73161,10 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1136863MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154607MRE1@EME"
     },
     {
-      "plan_id": "FEA1136849MRE1@EME",
+      "plan_id": "FEA1154591MRE1@EME",
       "brand": "flipped",
       "brand_name": "Flipped Energy",
       "display_name": "Freedom Switched On 2.2! Controlled Load",
@@ -73469,25 +73194,13 @@
         }
       ],
       "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 11.1,
+      "feed_in_cents_per_kwh": 2.0,
       "feed_in_detail": [
         {
           "scheme": "OTHER",
-          "display_name": "Feed In Tariff Day",
+          "display_name": "Solar Feed In Tariff",
           "payer_type": "RETAILER",
           "cents_per_kwh": 2.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Evening",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 11.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Overnight",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 4.502
         }
       ],
       "discounts": [
@@ -73528,10 +73241,10 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1136849MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154591MRE1@EME"
     },
     {
-      "plan_id": "FEA1136848MRE1@EME",
+      "plan_id": "FEA1154590MRE1@EME",
       "brand": "flipped",
       "brand_name": "Flipped Energy",
       "display_name": "Anytime Switched On 2.2! Controlled Load",
@@ -73598,242 +73311,10 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1136848MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154590MRE1@EME"
     },
     {
-      "plan_id": "FEA1136857MBE1@EME",
-      "brand": "flipped",
-      "brand_name": "Flipped Energy",
-      "display_name": "Business Freedom Switched On 2.2!",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Day",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 21.2129
-        },
-        {
-          "name": "Evening",
-          "type": "PEAK",
-          "cents_per_kwh": 57.6038
-        },
-        {
-          "name": "Overnight",
-          "type": "SHOULDER",
-          "cents_per_kwh": 35.461
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 11.1,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Day",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 2.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Evening",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 11.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Overnight",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 4.502
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Referral Discount",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "fixedAmount"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "64.02"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "64.02"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "64.02"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1136857MBE1@EME"
-    },
-    {
-      "plan_id": "FEA1136870MBE1@EME",
-      "brand": "flipped",
-      "brand_name": "Flipped Energy",
-      "display_name": "Business Anytime Switched On 2.2! Controlled Load",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 34.7102,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 34.7102
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 2.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Feed In Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 2.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Referral Discount",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "fixedAmount"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "64.02"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "64.02"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "64.02"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1136870MBE1@EME"
-    },
-    {
-      "plan_id": "FEA1136871MBE1@EME",
-      "brand": "flipped",
-      "brand_name": "Flipped Energy",
-      "display_name": "Business Anytime Switched On 2.2!",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 34.442,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 34.442
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 2.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Feed In Tariff",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 2.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Referral Discount",
-          "type": "CONDITIONAL",
-          "category": "OTHER",
-          "method": "fixedAmount"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "64.02"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "64.02"
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "PERCENT_OF_BILL",
-          "type": "CC_PROCESSING",
-          "amount": null
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "64.02"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1136871MBE1@EME"
-    },
-    {
-      "plan_id": "FEA1136869MRE1@EME",
+      "plan_id": "FEA1154617MRE1@EME",
       "brand": "flipped",
       "brand_name": "Flipped Energy",
       "display_name": "Anytime Switched On 2.2!",
@@ -73900,58 +73381,36 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1136869MRE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154617MRE1@EME"
     },
     {
-      "plan_id": "FEA1136879MBE1@EME",
+      "plan_id": "FEA1154620MBE1@EME",
       "brand": "flipped",
       "brand_name": "Flipped Energy",
-      "display_name": "Business Freedom Switched On 2.2! Controlled Load",
+      "display_name": "Business Anytime Switched On 2.2!",
       "type": "MARKET",
       "fuel_type": "ELECTRICITY",
       "distributors": [
         "SA Power Networks"
       ],
       "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 34.442,
       "usage_rates": [
         {
-          "name": "Day",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 21.3391
-        },
-        {
-          "name": "Evening",
-          "type": "PEAK",
-          "cents_per_kwh": 57.8956
-        },
-        {
-          "name": "Overnight",
-          "type": "SHOULDER",
-          "cents_per_kwh": 35.7888
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 34.442
         }
       ],
       "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 11.1,
+      "feed_in_cents_per_kwh": 2.0,
       "feed_in_detail": [
         {
           "scheme": "OTHER",
-          "display_name": "Feed In Tariff Day",
+          "display_name": "Solar Feed In Tariff",
           "payer_type": "RETAILER",
           "cents_per_kwh": 2.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Evening",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 11.1
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Feed In Tariff Overnight",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 4.502
         }
       ],
       "discounts": [
@@ -73992,7 +73451,837 @@
       "green_power": false,
       "contract_term_months": null,
       "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1136879MBE1@EME"
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154620MBE1@EME"
+    },
+    {
+      "plan_id": "FEA1154629MBE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Business Freedom Switched On 2.2! Controlled Load",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Day",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 21.3391
+        },
+        {
+          "name": "Evening",
+          "type": "PEAK",
+          "cents_per_kwh": 57.8956
+        },
+        {
+          "name": "Overnight",
+          "type": "SHOULDER",
+          "cents_per_kwh": 35.7888
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154629MBE1@EME"
+    },
+    {
+      "plan_id": "FEA1154618MBE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Business Anytime Switched On 2.2! Controlled Load",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 34.7102,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 34.7102
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154618MBE1@EME"
+    },
+    {
+      "plan_id": "FEA1154669SBE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Business Freedom Standing Offer",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Day",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 25.3196
+        },
+        {
+          "name": "Evening",
+          "type": "PEAK",
+          "cents_per_kwh": 61.7104
+        },
+        {
+          "name": "Overnight",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.5677
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154669SBE1@EME"
+    },
+    {
+      "plan_id": "FEA1154639SBE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Business Anytime Standing Offer - Controlled Load",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 38.5494,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 38.5494
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154639SBE1@EME"
+    },
+    {
+      "plan_id": "FEA1154601MBE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Business Freedom Switched On 2.2!",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Day",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 21.2129
+        },
+        {
+          "name": "Evening",
+          "type": "PEAK",
+          "cents_per_kwh": 57.6038
+        },
+        {
+          "name": "Overnight",
+          "type": "SHOULDER",
+          "cents_per_kwh": 35.461
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154601MBE1@EME"
+    },
+    {
+      "plan_id": "FEA1154656SRE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Freedom Standing Offer",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Day",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 14.8475
+        },
+        {
+          "name": "Evening",
+          "type": "PEAK",
+          "cents_per_kwh": 60.5598
+        },
+        {
+          "name": "Overnight",
+          "type": "SHOULDER",
+          "cents_per_kwh": 41.5408
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154656SRE1@EME"
+    },
+    {
+      "plan_id": "FEA1154663SBE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Business Freedom Standing Offer - Controlled Load",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Day",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 25.3203
+        },
+        {
+          "name": "Evening",
+          "type": "PEAK",
+          "cents_per_kwh": 61.7111
+        },
+        {
+          "name": "Overnight",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.5684
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154663SBE1@EME"
+    },
+    {
+      "plan_id": "FEA1154651SBE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Business Anytime Standing Offer",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 38.5486,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 38.5486
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154651SBE1@EME"
+    },
+    {
+      "plan_id": "FEA1154648SRE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Anytime Standing Offer - Controlled Load",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 36.3766,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 36.3766
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154648SRE1@EME"
+    },
+    {
+      "plan_id": "FEA1154646SRE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Freedom Standing Offer - Controlled Load",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Day",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 14.8474
+        },
+        {
+          "name": "Evening",
+          "type": "PEAK",
+          "cents_per_kwh": 60.5597
+        },
+        {
+          "name": "Overnight",
+          "type": "SHOULDER",
+          "cents_per_kwh": 41.5407
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154646SRE1@EME"
+    },
+    {
+      "plan_id": "FEA1154662SRE1@EME",
+      "brand": "flipped",
+      "brand_name": "Flipped Energy",
+      "display_name": "Anytime Standing Offer",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 36.3812,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 36.3812
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 2.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Feed In Tariff",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Referral Discount",
+          "type": "CONDITIONAL",
+          "category": "OTHER",
+          "method": "fixedAmount"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "64.02"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "64.02"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154662SRE1@EME"
     },
     {
       "plan_id": "FP11151056SRE1@EME",
@@ -74945,6 +75234,92 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FXP1125557SBE1@EME"
+    },
+    {
+      "plan_id": "IOR1155241MRE1@EME",
+      "brand": "io-energy",
+      "brand_name": "iO Energy",
+      "display_name": "Sustainable Home (Electrify)",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 7.2727
+        },
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 77.2727
+        },
+        {
+          "name": "Shoulder 1",
+          "type": "SHOULDER1",
+          "cents_per_kwh": 33.6364
+        },
+        {
+          "name": "Shoulder 2",
+          "type": "SHOULDER2",
+          "cents_per_kwh": 33.6364
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": null,
+      "feed_in_detail": [],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "LATE_PAYMENT",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "16.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "3.00"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "CC_PROCESSING",
+          "amount": null
+        },
+        {
+          "name": "FIXED",
+          "type": "DD_DISHONOUR",
+          "amount": "10.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "63.71"
+        },
+        {
+          "name": "PERCENT_OF_BILL",
+          "type": "PAYMENT_PROCESSING",
+          "amount": null
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=IOR1155241MRE1@EME"
     },
     {
       "plan_id": "IOR1009959MRE1@EME",
