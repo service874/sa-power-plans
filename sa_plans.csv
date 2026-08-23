@@ -19,6 +19,10 @@ LCL1116817MRE1@EME,Energy Locals Retail,Home Choice,MARKET,SINGLE_RATE,,37.7182,
 LCL1116816MRE1@EME,Energy Locals Retail,Home Choice,MARKET,SINGLE_RATE,,37.7182,3.0,,False,https://www.energymadeeasy.gov.au/plan?id=LCL1116816MRE1@EME
 LCL1116820MBE1@EME,Energy Locals Retail,Business Choice,MARKET,TIME_OF_USE,,,10.0,,False,https://www.energymadeeasy.gov.au/plan?id=LCL1116820MBE1@EME
 LCL1116814MBE1@EME,Energy Locals Retail,Business Choice,MARKET,SINGLE_RATE,,40.3545,3.0,,False,https://www.energymadeeasy.gov.au/plan?id=LCL1116814MBE1@EME
+ORI1161037MRE1@EME,Origin Energy,Origin Battery Starter,MARKET,TIME_OF_USE,,,27.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1161037MRE1@EME
+ORI1161044MRE1@EME,Origin Energy,Origin Battery Starter,MARKET,TIME_OF_USE,,,27.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1161044MRE1@EME
+ORI1160821MRE1@EME,Origin Energy,Origin Weekend Shift,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1160821MRE1@EME
+ORI1160822MRE1@EME,Origin Energy,Origin Weekend Shift,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1160822MRE1@EME
 ORI1157658MBE1@EME,Origin Energy,Origin Business Affinity Variable Ongoing - CheapBills,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1157658MBE1@EME
 ORI1157682MBE1@EME,Origin Energy,Origin Business Affinity Variable Ongoing - CheapBills,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1157682MBE1@EME
 ORI1157644MBE1@EME,Origin Energy,Origin Business Affinity Variable Ongoing - CheapBills,MARKET,SINGLE_RATE,,37.51,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1157644MBE1@EME
@@ -590,6 +594,10 @@ NEX1119455SRE1@EME,Next Business Energy,NBE Standing Offer,STANDING,SINGLE_RATE,
 NEX1119450SBE1@EME,Next Business Energy,NBE Standing Offer,STANDING,SINGLE_RATE,,38.1,2.0,,False,https://www.energymadeeasy.gov.au/plan?id=NEX1119450SBE1@EME
 NEX1119456SRE1@EME,Next Business Energy,NBE Standing Offer,STANDING,SINGLE_RATE,,40.77,2.0,,False,https://www.energymadeeasy.gov.au/plan?id=NEX1119456SRE1@EME
 NEX1119453SBE1@EME,Next Business Energy,NBE Standing Offer,STANDING,TIME_OF_USE,,,2.0,,False,https://www.energymadeeasy.gov.au/plan?id=NEX1119453SBE1@EME
+1ST1161135MBE1@EME,1st Energy,1st Opal - Time of Use,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=1ST1161135MBE1@EME
+1ST1161136MBE1@EME,1st Energy,1st Opal - Time of Use + Controlled Load,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=1ST1161136MBE1@EME
+1ST1161138MBE1@EME,1st Energy,1st Opal - Single Rate + Controlled Load,MARKET,SINGLE_RATE,,33.4,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=1ST1161138MBE1@EME
+1ST1161137MBE1@EME,1st Energy,1st Opal - Single Rate,MARKET,SINGLE_RATE,,33.4,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=1ST1161137MBE1@EME
 1ST1124944MBE1@EME,1st Energy,1st Quartz - Time of Use + Controlled Load,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=1ST1124944MBE1@EME
 1ST1124943MBE1@EME,1st Energy,1st Quartz - Time of Use,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=1ST1124943MBE1@EME
 1ST1124945SBE1@EME,1st Energy,Standing Offer - Time of Use,STANDING,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=1ST1124945SBE1@EME
@@ -674,6 +682,9 @@ DOD146946SRE10@EME,Dodo,Residential Standing,STANDING,TIME_OF_USE,,,44.0,,False,
 DOD14016SRE11@EME,Dodo,Residential Standing,STANDING,SINGLE_RATE,,38.1002,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=DOD14016SRE11@EME
 DOD14015SRE12@EME,Dodo,Residential Standing,STANDING,SINGLE_RATE,,38.1002,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=DOD14015SRE12@EME
 DOD1110329SRE1@EME,Dodo,Solar Sharer Offer,STANDING,TIME_OF_USE,,,1.0,,False,https://www.energymadeeasy.gov.au/plan?id=DOD1110329SRE1@EME
+MOM1161134MRE1@EME,Momentum Energy,NAB Goodies,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=MOM1161134MRE1@EME
+MOM1161133MRE1@EME,Momentum Energy,NAB Goodies,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=MOM1161133MRE1@EME
+MOM1161132MRE1@EME,Momentum Energy,NAB Goodies,MARKET,SINGLE_RATE,,36.6,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=MOM1161132MRE1@EME
 MOM1154776MBE1@EME,Momentum Energy,Bill Boss Electricity,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=MOM1154776MBE1@EME
 MOM1154777MBE1@EME,Momentum Energy,Bill Boss Electricity,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=MOM1154777MBE1@EME
 MOM1154775MBE1@EME,Momentum Energy,Strictly Business,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=MOM1154775MBE1@EME
