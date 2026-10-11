@@ -1,4 +1,12 @@
 plan_id,brand_name,display_name,type,tariff_type,supply_c_per_day,single_rate_c_per_kwh,feed_in_c_per_kwh,controlled_load_c_per_kwh,pay_on_time_only,plan_doc_url
+ORI1202310MRE1@EME,Origin Energy,Origin Affinity Variable Ongoing - Cheap Bills,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1202310MRE1@EME
+ORI1165466MRE1@EME,Origin Energy,Origin Affinity Variable Ongoing - Cheap Bills,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1165466MRE1@EME
+ORI1165464MRE1@EME,Origin Energy,Origin Affinity Variable Ongoing - Electricity Monster,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1165464MRE1@EME
+ORI1202312MRE1@EME,Origin Energy,Origin Affinity Variable Ongoing - Cheap Bills,MARKET,SINGLE_RATE,,36.2,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1202312MRE1@EME
+ORI1165454MRE1@EME,Origin Energy,Origin Affinity Variable Ongoing - Cheap Bills,MARKET,SINGLE_RATE,,36.2,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1165454MRE1@EME
+ORI1165491MRE1@EME,Origin Energy,Origin Affinity Variable Ongoing - Electricity Monster,MARKET,SINGLE_RATE,,36.2,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1165491MRE1@EME
+ORI1202421MRE1@EME,Origin Energy,Origin Affinity Variable Ongoing - Electricity Monster,MARKET,SINGLE_RATE,,36.2,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1202421MRE1@EME
+ORI1202379MRE1@EME,Origin Energy,Origin Affinity Variable Ongoing - Electricity Monster,MARKET,TIME_OF_USE,,,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1202379MRE1@EME
 ORI1202136MRE1@EME,Origin Energy,Origin Battery Charge,MARKET,TIME_OF_USE,,,11.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1202136MRE1@EME
 ORI1202137MRE1@EME,Origin Energy,Origin Battery Charge,MARKET,TIME_OF_USE,,,11.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI1202137MRE1@EME
 ORI909023MRE10@EME,Origin Energy,Origin Affinity Variable Ongoing - One Click Switch,MARKET,SINGLE_RATE,,36.2,44.0,,False,https://www.energymadeeasy.gov.au/plan?id=ORI909023MRE10@EME

@@ -1,11 +1,683 @@
 {
-  "generated_at": "2026-10-04T21:09:19.873107+00:00",
+  "generated_at": "2026-10-11T21:50:32.601347+00:00",
   "source": "AER Consumer Data Right Energy PRD (cdr.energymadeeasy.gov.au) - same data as Energy Made Easy",
   "region": "South Australia (SA Power Networks)",
   "fuel": "ELECTRICITY",
   "gst_note": "Unit prices and supply charges are GST-inclusive, in cents.",
-  "plan_count": 1038,
+  "plan_count": 1046,
   "plans": [
+    {
+      "plan_id": "ORI1202310MRE1@EME",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Origin Affinity Variable Ongoing - Cheap Bills",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 48.55
+        },
+        {
+          "name": "Off peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.11
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 14.72
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "17.42"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1202310MRE1@EME"
+    },
+    {
+      "plan_id": "ORI1165466MRE1@EME",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Origin Affinity Variable Ongoing - Cheap Bills",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 48.55
+        },
+        {
+          "name": "Off peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.11
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 14.72
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "17.42"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1165466MRE1@EME"
+    },
+    {
+      "plan_id": "ORI1165464MRE1@EME",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Origin Affinity Variable Ongoing - Electricity Monster",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 48.55
+        },
+        {
+          "name": "Off peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.11
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 14.72
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "17.42"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1165464MRE1@EME"
+    },
+    {
+      "plan_id": "ORI1202312MRE1@EME",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Origin Affinity Variable Ongoing - Cheap Bills",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 36.2,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 36.2
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "17.42"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1202312MRE1@EME"
+    },
+    {
+      "plan_id": "ORI1165454MRE1@EME",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Origin Affinity Variable Ongoing - Cheap Bills",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 36.2,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 36.2
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "17.42"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1165454MRE1@EME"
+    },
+    {
+      "plan_id": "ORI1165491MRE1@EME",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Origin Affinity Variable Ongoing - Electricity Monster",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 36.2,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 36.2
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "17.42"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1165491MRE1@EME"
+    },
+    {
+      "plan_id": "ORI1202421MRE1@EME",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Origin Affinity Variable Ongoing - Electricity Monster",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 36.2,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 36.2
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "17.42"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1202421MRE1@EME"
+    },
+    {
+      "plan_id": "ORI1202379MRE1@EME",
+      "brand": "origin",
+      "brand_name": "Origin Energy",
+      "display_name": "Origin Affinity Variable Ongoing - Electricity Monster",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 48.55
+        },
+        {
+          "name": "Off peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.11
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 14.72
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar FIT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 2.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_NON_PAY",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "15.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "2.70"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "2.15"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "17.42"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ORI1202379MRE1@EME"
+    },
     {
       "plan_id": "ORI1202136MRE1@EME",
       "brand": "origin",
