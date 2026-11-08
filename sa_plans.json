@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01T21:58:51.620189+00:00",
+  "generated_at": "2026-11-08T22:01:10.896634+00:00",
   "source": "AER Consumer Data Right Energy PRD (cdr.energymadeeasy.gov.au) - same data as Energy Made Easy",
   "region": "South Australia (SA Power Networks)",
   "fuel": "ELECTRICITY",
   "gst_note": "Unit prices and supply charges are GST-inclusive, in cents.",
-  "plan_count": 1061,
+  "plan_count": 1063,
   "plans": [
     {
       "plan_id": "ORI1206310MRE1@EME",
@@ -26507,6 +26507,753 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=AGL1059359MBE3@EME"
     },
     {
+      "plan_id": "ENE252026MBE31@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Business Balance Plan 12 - 5 Day Time of Use",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 49.4613
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.046
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed Discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE252026MBE31@EME"
+    },
+    {
+      "plan_id": "ENE252010MBE32@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Business Balance Plan 12 - Peak with CL",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.768,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.768
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed Discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE252010MBE32@EME"
+    },
+    {
+      "plan_id": "ENE32487SBE29@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Standing Offer Business - 5 Day Time of Use",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 49.4613
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.046
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "10.90"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE32487SBE29@EME"
+    },
+    {
+      "plan_id": "ENE234175MBE30@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Business Rate Fix  - Peak with CL",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.768,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.768
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed Discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE234175MBE30@EME"
+    },
+    {
+      "plan_id": "ENE252034MBE31@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Business Balance Plan 12 - 7 Day Time of Use",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 69.0199
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6563
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6563
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed Discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE252034MBE31@EME"
+    },
+    {
+      "plan_id": "ENE120649SBE24@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Standing Offer Business - 7 Day Time of Use",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 69.0199
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6563
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6563
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "10.90"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE120649SBE24@EME"
+    },
+    {
+      "plan_id": "ENE234178MBE30@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Business Rate Fix  - 5 Day Time of Use",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 49.4613
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 28.046
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed Discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE234178MBE30@EME"
+    },
+    {
+      "plan_id": "ENE234198MBE30@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Business Rate Fix  - 7 Day Time of Use",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 69.0199
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6563
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 32.0228
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 39.6563
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [
+        {
+          "name": "Guaranteed Discount",
+          "type": "GUARANTEED",
+          "category": null,
+          "method": "percentOfBill"
+        }
+      ],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE234198MBE30@EME"
+    },
+    {
+      "plan_id": "ENE32428SBE29@EME",
+      "brand": "energyaustralia",
+      "brand_name": "EnergyAustralia",
+      "display_name": "Standing Offer Business - Peak with CL 1 & 2",
+      "type": "STANDING",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.768,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.768
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 3.3
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "PREMIUM",
+          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "10.90"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE32428SBE29@EME"
+    },
+    {
       "plan_id": "ENE360418MRE29@EME",
       "brand": "energyaustralia",
       "brand_name": "EnergyAustralia",
@@ -26816,352 +27563,6 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE360412MRE29@EME"
     },
     {
-      "plan_id": "ENE234178MBE30@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Business Rate Fix  - 5 Day Time of Use",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 49.4613
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 28.046
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed Discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE234178MBE30@EME"
-    },
-    {
-      "plan_id": "ENE252034MBE31@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Business Balance Plan 12 - 7 Day Time of Use",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 69.0199
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6563
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6563
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed Discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE252034MBE31@EME"
-    },
-    {
-      "plan_id": "ENE32428SBE29@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Standing Offer Business - Peak with CL 1 & 2",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.768,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.768
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "10.90"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE32428SBE29@EME"
-    },
-    {
-      "plan_id": "ENE234198MBE30@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Business Rate Fix  - 7 Day Time of Use",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 69.0199
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6563
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6563
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed Discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE234198MBE30@EME"
-    },
-    {
       "plan_id": "ENE247405SRE31@EME",
       "brand": "energyaustralia",
       "brand_name": "EnergyAustralia",
@@ -27324,240 +27725,6 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE252018MBE32@EME"
     },
     {
-      "plan_id": "ENE252026MBE31@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Business Balance Plan 12 - 5 Day Time of Use",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 49.4613
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 28.046
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed Discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE252026MBE31@EME"
-    },
-    {
-      "plan_id": "ENE252010MBE32@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Business Balance Plan 12 - Peak with CL",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.768,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.768
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed Discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE252010MBE32@EME"
-    },
-    {
-      "plan_id": "ENE32487SBE29@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Standing Offer Business - 5 Day Time of Use",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 49.4613
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 28.046
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "10.90"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE32487SBE29@EME"
-    },
-    {
       "plan_id": "ENE996209MRE6@EME",
       "brand": "energyaustralia",
       "brand_name": "EnergyAustralia",
@@ -27631,83 +27798,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE996209MRE6@EME"
-    },
-    {
-      "plan_id": "ENE234175MBE30@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Business Rate Fix  - Peak with CL",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.768,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.768
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [
-        {
-          "name": "Guaranteed Discount",
-          "type": "GUARANTEED",
-          "category": null,
-          "method": "percentOfBill"
-        }
-      ],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE234175MBE30@EME"
     },
     {
       "plan_id": "ENE996210MRE7@EME",
@@ -28015,96 +28105,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE1085070SBE3@EME"
-    },
-    {
-      "plan_id": "ENE120649SBE24@EME",
-      "brand": "energyaustralia",
-      "brand_name": "EnergyAustralia",
-      "display_name": "Standing Offer Business - 7 Day Time of Use",
-      "type": "STANDING",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 69.0199
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6563
-        },
-        {
-          "name": "Off Peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 32.0228
-        },
-        {
-          "name": "Shoulder",
-          "type": "SHOULDER",
-          "cents_per_kwh": 39.6563
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "EnergyAustralia Retailer Feed-in Tariff (incl. GST if any)",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 3.3
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 31/08/2010",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "PREMIUM",
-          "display_name": "Solar Feed-In Scheme pre 30/09/2011, first 45kWh per day",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "10.90"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "66.54"
-        }
-      ],
-      "green_power": true,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENE120649SBE24@EME"
     },
     {
       "plan_id": "ENE996212MRE6@EME",
@@ -39178,6 +39178,668 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ENG1116164SBE1@EME"
     },
     {
+      "plan_id": "ALI1115539MRE4@EME",
+      "brand": "alinta",
+      "brand_name": "Alinta Energy",
+      "display_name": "SolarBalance Choice - Time of Use (Interval) + CL",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 53.67
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 31.07
+        },
+        {
+          "name": "Shoulder consumption",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.27
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Bonus FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.5
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "148.96"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "3.40"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.95"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115539MRE4@EME"
+    },
+    {
+      "plan_id": "ALI1115537MRE4@EME",
+      "brand": "alinta",
+      "brand_name": "Alinta Energy",
+      "display_name": "SolarBalance Choice - Time of Use (Interval)",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 53.67
+        },
+        {
+          "name": "Off-peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 31.07
+        },
+        {
+          "name": "Shoulder consumption",
+          "type": "SHOULDER",
+          "cents_per_kwh": 16.27
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Bonus FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.5
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "148.96"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "3.40"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.95"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115537MRE4@EME"
+    },
+    {
+      "plan_id": "ALI1115536MRE4@EME",
+      "brand": "alinta",
+      "brand_name": "Alinta Energy",
+      "display_name": "SolarBalance Choice - Demand Single Rate",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 44.76,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 44.76
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Bonus FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.5
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "148.96"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "3.40"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.95"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115536MRE4@EME"
+    },
+    {
+      "plan_id": "ALI1115540MRE4@EME",
+      "brand": "alinta",
+      "brand_name": "Alinta Energy",
+      "display_name": "SolarBalance Choice - Demand Single Rate + CL",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 44.76,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 44.76
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Bonus FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.5
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "148.96"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "3.40"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.95"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115540MRE4@EME"
+    },
+    {
+      "plan_id": "ALI1115535MRE4@EME",
+      "brand": "alinta",
+      "brand_name": "Alinta Energy",
+      "display_name": "SolarBalance Choice - Single Rate + CL",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.01,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.01
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Bonus FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.5
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "148.96"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "3.40"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.95"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115535MRE4@EME"
+    },
+    {
+      "plan_id": "ALI1115538MRE4@EME",
+      "brand": "alinta",
+      "brand_name": "Alinta Energy",
+      "display_name": "SolarBalance Choice - Single Rate",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 40.01,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 40.01
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 44.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Solar Bonus FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 5.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 0.5
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Single Rate Solar FiT",
+          "payer_type": "GOVERNMENT",
+          "cents_per_kwh": 44.0
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "148.96"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECT_MOVE_OUT",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "CONNECTION",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "OTHER",
+          "amount": "22.18"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAYMENT_PROCESSING",
+          "amount": "3.40"
+        },
+        {
+          "name": "FIXED",
+          "type": "PAPER_BILL",
+          "amount": "1.95"
+        },
+        {
+          "name": "FIXED",
+          "type": "LATE_PAYMENT",
+          "amount": "12.00"
+        }
+      ],
+      "green_power": false,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115538MRE4@EME"
+    },
+    {
       "plan_id": "ALI1164926MRE1@EME",
       "brand": "alinta",
       "brand_name": "Alinta Energy",
@@ -40853,113 +41515,6 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1140845SRE5@EME"
     },
     {
-      "plan_id": "ALI1115535MRE4@EME",
-      "brand": "alinta",
-      "brand_name": "Alinta Energy",
-      "display_name": "SolarBalance Choice - Single Rate + CL",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.01,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.01
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Bonus FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 5.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.5
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "148.96"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECT_MOVE_OUT",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAYMENT_PROCESSING",
-          "amount": "3.40"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.95"
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115535MRE4@EME"
-    },
-    {
       "plan_id": "ALI1114406MBE4@EME",
       "brand": "alinta",
       "brand_name": "Alinta Energy",
@@ -41064,123 +41619,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1114406MBE4@EME"
-    },
-    {
-      "plan_id": "ALI1115539MRE4@EME",
-      "brand": "alinta",
-      "brand_name": "Alinta Energy",
-      "display_name": "SolarBalance Choice - Time of Use (Interval) + CL",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 53.67
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 31.07
-        },
-        {
-          "name": "Shoulder consumption",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.27
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Bonus FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 5.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.5
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "148.96"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECT_MOVE_OUT",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAYMENT_PROCESSING",
-          "amount": "3.40"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.95"
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115539MRE4@EME"
     },
     {
       "plan_id": "ALI1115584MRE4@EME",
@@ -41383,113 +41821,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115582MRE4@EME"
-    },
-    {
-      "plan_id": "ALI1115538MRE4@EME",
-      "brand": "alinta",
-      "brand_name": "Alinta Energy",
-      "display_name": "SolarBalance Choice - Single Rate",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 40.01,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 40.01
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Bonus FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 5.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.5
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "148.96"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECT_MOVE_OUT",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAYMENT_PROCESSING",
-          "amount": "3.40"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.95"
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115538MRE4@EME"
     },
     {
       "plan_id": "ALI1140841SRE5@EME",
@@ -42075,230 +42406,6 @@
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115586MRE4@EME"
     },
     {
-      "plan_id": "ALI1115540MRE4@EME",
-      "brand": "alinta",
-      "brand_name": "Alinta Energy",
-      "display_name": "SolarBalance Choice - Demand Single Rate + CL",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 44.76,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 44.76
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Bonus FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 5.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.5
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "148.96"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECT_MOVE_OUT",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAYMENT_PROCESSING",
-          "amount": "3.40"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.95"
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115540MRE4@EME"
-    },
-    {
-      "plan_id": "ALI1115537MRE4@EME",
-      "brand": "alinta",
-      "brand_name": "Alinta Energy",
-      "display_name": "SolarBalance Choice - Time of Use (Interval)",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "TIME_OF_USE",
-      "single_rate_cents_per_kwh": null,
-      "usage_rates": [
-        {
-          "name": "Peak",
-          "type": "PEAK",
-          "cents_per_kwh": 53.67
-        },
-        {
-          "name": "Off-peak",
-          "type": "OFF_PEAK",
-          "cents_per_kwh": 31.07
-        },
-        {
-          "name": "Shoulder consumption",
-          "type": "SHOULDER",
-          "cents_per_kwh": 16.27
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Bonus FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 5.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.5
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "148.96"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECT_MOVE_OUT",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAYMENT_PROCESSING",
-          "amount": "3.40"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.95"
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115537MRE4@EME"
-    },
-    {
       "plan_id": "ALI1115583MRE4@EME",
       "brand": "alinta",
       "brand_name": "Alinta Energy",
@@ -42695,113 +42802,6 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1140839SBE5@EME"
-    },
-    {
-      "plan_id": "ALI1115536MRE4@EME",
-      "brand": "alinta",
-      "brand_name": "Alinta Energy",
-      "display_name": "SolarBalance Choice - Demand Single Rate",
-      "type": "MARKET",
-      "fuel_type": "ELECTRICITY",
-      "distributors": [
-        "SA Power Networks"
-      ],
-      "supply_cents_per_day": null,
-      "tariff_type": "SINGLE_RATE",
-      "single_rate_cents_per_kwh": 44.76,
-      "usage_rates": [
-        {
-          "name": "Anytime",
-          "type": "SINGLE",
-          "cents_per_kwh": 44.76
-        }
-      ],
-      "controlled_load_cents_per_kwh": null,
-      "feed_in_cents_per_kwh": 44.0,
-      "feed_in_detail": [
-        {
-          "scheme": "OTHER",
-          "display_name": "Solar Bonus FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 5.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "RETAILER",
-          "cents_per_kwh": 0.5
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        },
-        {
-          "scheme": "OTHER",
-          "display_name": "Single Rate Solar FiT",
-          "payer_type": "GOVERNMENT",
-          "cents_per_kwh": 44.0
-        }
-      ],
-      "discounts": [],
-      "fees": [
-        {
-          "name": "FIXED",
-          "type": "DISCONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "66.54"
-        },
-        {
-          "name": "FIXED",
-          "type": "RECONNECTION",
-          "amount": "148.96"
-        },
-        {
-          "name": "FIXED",
-          "type": "DISCONNECT_MOVE_OUT",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "CONNECTION",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "OTHER",
-          "amount": "22.18"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAYMENT_PROCESSING",
-          "amount": "3.40"
-        },
-        {
-          "name": "FIXED",
-          "type": "PAPER_BILL",
-          "amount": "1.95"
-        },
-        {
-          "name": "FIXED",
-          "type": "LATE_PAYMENT",
-          "amount": "12.00"
-        }
-      ],
-      "green_power": false,
-      "contract_term_months": null,
-      "pay_on_time_only": false,
-      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=ALI1115536MRE4@EME"
     },
     {
       "plan_id": "ALI1140842SRE5@EME",
@@ -76395,6 +76395,136 @@
       "contract_term_months": null,
       "pay_on_time_only": false,
       "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FEA1154629MBE2@EME"
+    },
+    {
+      "plan_id": "FP11215332MRE1@EME",
+      "brand": "flow-power",
+      "brand_name": "Flow Power",
+      "display_name": "Happy Hour Plus",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "SINGLE_RATE",
+      "single_rate_cents_per_kwh": 44.2191,
+      "usage_rates": [
+        {
+          "name": "Anytime",
+          "type": "SINGLE",
+          "cents_per_kwh": 44.2191
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 40.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Peak FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 40.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Peak FiT balance",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 10.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Off-Peak FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": null
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.539"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.539"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FP11215332MRE1@EME"
+    },
+    {
+      "plan_id": "FP11215331MRE1@EME",
+      "brand": "flow-power",
+      "brand_name": "Flow Power",
+      "display_name": "Happy Hour Plus",
+      "type": "MARKET",
+      "fuel_type": "ELECTRICITY",
+      "distributors": [
+        "SA Power Networks"
+      ],
+      "supply_cents_per_day": null,
+      "tariff_type": "TIME_OF_USE",
+      "single_rate_cents_per_kwh": null,
+      "usage_rates": [
+        {
+          "name": "Peak",
+          "type": "PEAK",
+          "cents_per_kwh": 44.2191
+        },
+        {
+          "name": "Off Peak",
+          "type": "OFF_PEAK",
+          "cents_per_kwh": 44.2191
+        },
+        {
+          "name": "Shoulder",
+          "type": "SHOULDER",
+          "cents_per_kwh": 44.2191
+        }
+      ],
+      "controlled_load_cents_per_kwh": null,
+      "feed_in_cents_per_kwh": 40.0,
+      "feed_in_detail": [
+        {
+          "scheme": "OTHER",
+          "display_name": "Peak FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 40.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Peak FiT balance",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": 10.0
+        },
+        {
+          "scheme": "OTHER",
+          "display_name": "Off-Peak FiT",
+          "payer_type": "RETAILER",
+          "cents_per_kwh": null
+        }
+      ],
+      "discounts": [],
+      "fees": [
+        {
+          "name": "FIXED",
+          "type": "RECONNECTION",
+          "amount": "66.54"
+        },
+        {
+          "name": "FIXED",
+          "type": "DISCONNECTION",
+          "amount": "66.54"
+        }
+      ],
+      "green_power": true,
+      "contract_term_months": null,
+      "pay_on_time_only": false,
+      "plan_doc_url": "https://www.energymadeeasy.gov.au/plan?id=FP11215331MRE1@EME"
     },
     {
       "plan_id": "FP11199048MRE1@EME",
